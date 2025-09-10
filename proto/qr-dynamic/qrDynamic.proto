@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package qrDynamic;
+
+import "google/protobuf/struct.proto";
+
+option go_package = "./proto/qr-dynamic";
+
+service QrDynamicService {
+    rpc Status (google.protobuf.Struct) returns (google.protobuf.Struct);
+    rpc GenerateQr (google.protobuf.Struct) returns (google.protobuf.Struct);
+    rpc Query (google.protobuf.Struct) returns (google.protobuf.Struct);
+}

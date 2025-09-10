@@ -1,0 +1,10 @@
+[09:48:21] - Mini-Atm - Save trx : context canceled
+
+[09:50:47] - Mini-Atm - Save trx : Error 1366 (HY000): Incorrect string value: '\x93\x93\x93\x83\x03\x03...' for column 'tid' at row 1
+
+[09:51:51] - Mini-Atm - Save trx : Error 1366 (HY000): Incorrect string value: '\x93\x93\x93\x83\x03\x03...' for column 'tid' at row 1
+
+[09:53:06] - Mini-Atm - Save trx : Error 1366 (HY000): Incorrect string value: '\x93\x93\x93\x83\x03\x03...' for column 'tid' at row 1
+
+[09:55:13] - Mini-Atm - Send to host : EOF
+

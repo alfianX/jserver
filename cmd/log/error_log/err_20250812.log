@@ -1,0 +1,8 @@
+[10:31:22] - microservice failed: error reading from server: read tcp 127.0.0.1:51473->127.0.0.1:8793: wsarecv: An existing connection was forcibly closed by the remote host.
+
+[10:33:56] - microservice failed: error reading from server: read tcp 127.0.0.1:51496->127.0.0.1:8793: wsarecv: An existing connection was forcibly closed by the remote host.
+
+[10:35:21] - Mini-Atm - Send to host : dial tcp 127.0.0.1:7005: connectex: No connection could be made because the target machine actively refused it.
+
+[10:35:21] - microservice failed: General Error [H0]
+

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package miniAtm;
+
+option go_package = "./proto/mini-atm";
+
+service MiniAtmService {
+    rpc Transaction (Request) returns (Response);
+}
+
+message Request {
+    string serialNumber = 1;
+    string transactionType = 2;
+    string iso = 3;
+}
+
+message Response {
+    string status = 1;
+    string message = 2;
+    string iso = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package qrNotif;
+
+import "google/protobuf/struct.proto";
+
+option go_package = "./proto/qr-notif";
+
+service QrNotifService {
+    rpc Status (google.protobuf.Struct) returns (google.protobuf.Struct);
+}

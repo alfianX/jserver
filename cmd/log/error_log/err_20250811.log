@@ -1,0 +1,14 @@
+[10:15:12] - microservice failed: service qrNotif.QrNotifService not found: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:8790: connectex: No connection could be made because the target machine actively refused it."
+
+[10:15:33] - microservice failed: service miniAtm.MiniAtmService not found: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:8792: connectex: No connection could be made because the target machine actively refused it."
+
+[10:53:11] - Cron-Card-Payment - Get data in db for odoo : Error 1146 (42S02): Table 'jackdb.card_payment' doesn't exist
+
+[10:53:21] - Cron-Card-Payment - Get data in db for odoo : Error 1146 (42S02): Table 'jackdb.card_payment' doesn't exist
+
+[10:53:31] - Cron-Card-Payment - Get data in db for odoo : Error 1146 (42S02): Table 'jackdb.card_payment' doesn't exist
+
+[10:53:41] - Cron-Card-Payment - Get data in db for odoo : Error 1146 (42S02): Table 'jackdb.card_payment' doesn't exist
+
+[10:53:51] - Cron-Card-Payment - Get data in db for odoo : Error 1146 (42S02): Table 'jackdb.card_payment' doesn't exist
+

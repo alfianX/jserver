@@ -1,0 +1,6 @@
+[08:48:29] - json minify failed: invalid character 'c' looking for beginning of value
+
+[08:55:31] - json minify failed: invalid character 'c' looking for beginning of value
+
+[09:18:07] - microservice failed: service qrDynamic.QrDynamicService not found: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:8791: connectex: No connection could be made because the target machine actively refused it."
+

@@ -1,0 +1,3097 @@
+[09:47:58] - Mini-Atm - Send to host : dial tcp 127.0.0.1:7005: connectex: No connection could be made because the target machine actively refused it.
+
+[09:47:58] - microservice failed: General Error [H0]
+
+[09:56:18] - Mini-Atm - Send to host : dial tcp 127.0.0.1:7005: connectex: No connection could be made because the target machine actively refused it.
+
+[09:56:18] - microservice failed: General Error [H0]
+
+[10:38:59] - microservice failed: stream terminated by RST_STREAM with error code: PROTOCOL_ERROR
+
+[10:39:10] - microservice failed: stream terminated by RST_STREAM with error code: PROTOCOL_ERROR
+
+[11:03:37] - Mini-Atm - Send to host : dial tcp 127.0.0.1:7005: connectex: No connection could be made because the target machine actively refused it.
+
+[11:03:37] - microservice failed: General Error [H0]
+
+[11:04:32] - Mini-Atm - Send to host : dial tcp 127.0.0.1:7005: connectex: No connection could be made because the target machine actively refused it.
+
+[11:04:32] - microservice failed: General Error [H0]
+
+[11:27:17] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:27:17] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:27:17] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:27:27] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:27:27] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:27:27] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:27:37] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:27:37] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:27:37] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:27:47] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:27:47] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:27:47] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:27:57] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:27:57] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:27:57] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:07] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:07] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:28:07] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:17] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:17] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:28:17] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:27] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:27] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:28:27] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:37] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:37] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:28:37] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:47] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:47] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:28:47] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:57] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:28:57] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:28:57] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:07] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:07] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:29:07] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:17] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:17] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:29:17] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:27] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:27] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:29:27] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:37] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:37] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:29:37] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:47] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:47] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:29:47] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:57] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:29:57] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:29:57] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:07] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:07] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:30:07] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:17] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:17] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:30:17] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:27] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:27] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:30:27] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:37] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:37] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:30:37] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:47] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:47] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:30:47] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:57] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:30:57] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:30:57] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:31:07] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:31:07] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:31:07] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:31:17] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:31:17] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:31:17] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:31:27] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:31:27] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:31:27] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:31:37] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:31:37] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:31:37] - Cron-Mini-ATM - Send to odoo  : Post "https://kleverpays.com/iid_api_manage/post_data": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:32:00] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:32:00] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:32:00] - Cron-Mini-ATM - Send to odoo  : <!DOCTYPE html>
+<html lang="en-US" data-website-id="1" data-main-object="ir.ui.view(2653,)" data-add2cart-redirect="1">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="generator" content="Odoo"/>
+            
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Login | My Website"/>
+        <meta property="og:site_name" content="My Website"/>
+        <meta property="og:url" content="http://192.101.1.14:7002/web/login"/>
+        <meta property="og:image" content="http://192.101.1.14:7002/web/image/website/1/logo?unique=32c096c"/>
+            
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Login | My Website"/>
+        <meta name="twitter:image" content="http://192.101.1.14:7002/web/image/website/1/logo/300x300?unique=32c096c"/>
+        
+        <link rel="canonical" href="http://kleverpays.com/reset-password/web/login"/>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        <title>Login | My Website</title>
+        <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=32c096c"/>
+        <link rel="preload" href="/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
+        <link type="text/css" rel="stylesheet" href="/web/assets/1/3d00b10/web.assets_frontend.min.css"/>
+        <script id="web.layout.odooscript" type="text/javascript">
+            var odoo = {
+                csrf_token: "fc2b5edcca6150958ad24ee5818ff4d6763919e8o1788928320",
+                debug: "",
+            };
+        </script>
+        <script type="text/javascript">
+            odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_public": true, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "currencies": {"12": {"symbol": "Rp", "position": "before", "digits": [69, 2]}, "1": {"symbol": "$", "position": "before", "digits": [69, 2]}}, "bundle_params": {"lang": "en_US", "website_id": 1}, "websocket_worker_version": "17.0-1", "translationURL": "/website/translations", "cache_hashes": {"translations": "452ddba79841fad29129721bdca411b64e90bfd8"}, "geoip_country_code": null, "geoip_phone_code": null, "lang_url_code": "en"};
+            if (!/(^|;\s)tz=/.test(document.cookie)) {
+                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                document.cookie = `tz=${userTZ}; path=/`;
+            }
+        </script>
+        <script type="text/javascript" defer="defer" src="/web/assets/1/9ee6232/web.assets_frontend_minimal.min.js" onerror="__odooAssetError=1"></script>
+        <script type="text/javascript" defer="defer" data-src="/web/assets/1/1a05197/web.assets_frontend_lazy.min.js" onerror="__odooAssetError=1"></script>
+        
+                    <script>
+                        
+            
+                if (!window.odoo) {
+                    window.odoo = {};
+                }
+                odoo.__session_info__ = Object.assign(odoo.__session_info__ || {}, {
+                    livechatData: {
+                        isAvailable: false,
+                        serverUrl: "http://kleverpays.com/reset-password",
+                        options: {},
+                    },
+                });
+            
+                    </script>
+        
+    </head>
+    <body>
+
+
+
+        <div id="wrapwrap" class="   ">
+                <header id="top" data-anchor="true" data-name="Header" data-extra-items-toggle-aria-label="Extra items button" class="   o_header_standard o_hoverable_dropdown" style=" ">
+                    
+    <nav data-name="Navbar" aria-label="Main" class="navbar navbar-expand-lg navbar-light o_colored_level o_cc d-none d-lg-block shadow-sm ">
+        
+
+            <div id="o_main_nav" class="o_main_nav container">
+                
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo me-4">
+                
+                <img src="/iid_marketplace/static/img/logo_aipos2.png" role="img" aria-label="Logo of My Website" title="My Website" loading="lazy"/>
+            </a>
+        
+                
+    <ul id="top_menu" role="menu" class="nav navbar-nav top_menu o_menu_loading me-auto">
+        
+
+                    
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Produk</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/#Kategori-Produk" class="dropdown-item ">
+            <span>E-Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/elektronik-1" class="dropdown-item ">
+            <span>Elektronik</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/topup-2" class="dropdown-item ">
+            <span>Top Up &amp; Tagihan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/handphone-tablet-3" class="dropdown-item ">
+            <span>Handphone &amp; Tablet</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/perawatan-hewan-4" class="dropdown-item ">
+            <span>Perawatan Hewan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/travel-entertainment-5" class="dropdown-item ">
+            <span>Travel &amp; Entertaiment</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="https://kleverpays.com/shop" class="nav-link ">
+            <span>Belanja</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Hubungi Kami</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Privasi dan Syarat</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/privacy-policy" class="dropdown-item ">
+            <span>Privasi dan Kebijakan</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/my/dashboard" class="nav-link ">
+            <span>Dashboard</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Invoicing</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/invoicing" class="dropdown-item ">
+            <span>Create Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="/my/invoicing" class="dropdown-item ">
+            <span>My Invoices</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+                
+    </ul>
+                
+                <ul class="navbar-nav align-items-center gap-2 flex-shrink-0 justify-content-end ps-3">
+                    
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart d-none ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background btn position-relative rounded-circle p-1 text-center text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-danger position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                    
+                    
+        <div data-name="Text" style="display: flex; align-items: center; gap: 8px;" class="s_text_block ">
+                    
+                    <a href="/my/orders" class="btn o_navlink_background text-reset o_not_editable" style="width: 41.6px; height: 41.6px; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 0;">
+                        <i class="fa fa-1x fa-fw fa-clipboard" style="margin: 0; font-size: 18px; line-height: 1;"></i>
+                    </a>
+
+                    
+                    <span class="badge text o_not_editable" id="status-member" style="cursor: default; font-size: 0.75rem; padding: 6px 10px; border-radius: 1rem;">
+                        
+                    </span>
+                </div>
+                    
+                    
+        <li data-name="Language Selector" class="o_header_language_selector ">
+    
+    
+        </li>
+                    
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary">Masuk</a>
+            </li>
+            
+            <li class=" o_no_autohide_item">
+            <a href="/pilih-pendaftaran" class="btn btn-outline-secondary">
+                Daftar
+            </a>
+        </li>
+                    
+        
+        
+                    
+                </ul>
+            </div>
+        
+    </nav>
+    <nav data-name="Navbar" aria-label="Mobile" class="navbar  navbar-light o_colored_level o_cc o_header_mobile d-block d-lg-none shadow-sm px-0 ">
+        
+
+        <div class="o_main_nav container flex-wrap justify-content-between">
+            
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo ">
+                
+                <img src="/iid_marketplace/static/img/logo_aipos2.png" role="img" aria-label="Logo of My Website" title="My Website" loading="lazy"/>
+            </a>
+        
+            <ul class="o_header_mobile_buttons_wrap navbar-nav flex-row align-items-center gap-2 mb-0">
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart d-none ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background_hover btn position-relative rounded-circle border-0 p-1 text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-danger position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                <li class="o_not_editable">
+                    <button class="nav-link btn me-auto p-2 o_not_editable" type="button" data-bs-toggle="offcanvas" data-bs-target="#top_menu_collapse_mobile" aria-controls="top_menu_collapse_mobile" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </li>
+            </ul>
+            <div id="top_menu_collapse_mobile" class="offcanvas offcanvas-end o_navbar_mobile">
+                <div class="offcanvas-header justify-content-end o_not_editable">
+                    <button type="button" class="nav-link btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column justify-content-between h-100 w-100">
+                    <ul class="navbar-nav">
+                        
+                        
+                        
+    <ul role="menu" class="nav navbar-nav top_menu  ">
+        
+
+                            
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Produk</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/#Kategori-Produk" class="dropdown-item ">
+            <span>E-Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/elektronik-1" class="dropdown-item ">
+            <span>Elektronik</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/topup-2" class="dropdown-item ">
+            <span>Top Up &amp; Tagihan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/handphone-tablet-3" class="dropdown-item ">
+            <span>Handphone &amp; Tablet</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/perawatan-hewan-4" class="dropdown-item ">
+            <span>Perawatan Hewan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/travel-entertainment-5" class="dropdown-item ">
+            <span>Travel &amp; Entertaiment</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="https://kleverpays.com/shop" class="nav-link ">
+            <span>Belanja</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Hubungi Kami</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Privasi dan Syarat</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/privacy-policy" class="dropdown-item ">
+            <span>Privasi dan Kebijakan</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/my/dashboard" class="nav-link ">
+            <span>Dashboard</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Invoicing</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/invoicing" class="dropdown-item ">
+            <span>Create Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="/my/invoicing" class="dropdown-item ">
+            <span>My Invoices</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+                        
+    </ul>
+                        
+        <div data-name="Text" style="display: flex; align-items: center; gap: 8px;" class="s_text_block mt-2 border-top pt-2 o_border_contrast">
+                    
+                    <a href="/my/orders" class="btn o_navlink_background text-reset o_not_editable" style="width: 41.6px; height: 41.6px; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 0;">
+                        <i class="fa fa-1x fa-fw fa-clipboard" style="margin: 0; font-size: 18px; line-height: 1;"></i>
+                    </a>
+
+                    
+                    <span class="badge text o_not_editable" id="status-member" style="cursor: default; font-size: 0.75rem; padding: 6px 10px; border-radius: 1rem;">
+                        
+                    </span>
+                </div>
+                        
+                    </ul>
+                    <ul class="navbar-nav gap-2 mt-3 w-100">
+                        
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary w-100">Masuk</a>
+            </li>
+            
+            <li class=" o_no_autohide_item">
+            <a href="/pilih-pendaftaran" class="btn btn-outline-secondary w-100">
+                Daftar
+            </a>
+        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+                        
+        
+        
+                        
+        <li data-name="Language Selector" class="o_header_language_selector ">
+    
+    
+        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </nav>
+    
+        </header>
+                <main>
+                    
+            <div class="oe_website_login_container">
+                
+                <script src="https://hcaptcha.com/1/api.js" async="async" defer="defer"></script>
+
+                
+                <script type="text/javascript">
+                    function onCaptchaSuccess() {
+                        var errorElement = document.getElementById("login_error");
+                        if (errorElement) {
+                            errorElement.remove(); // atau gunakan: errorElement.style.display = 'none';
+                        }
+                    }
+                </script>
+                <script src="https://hcaptcha.com/1/api.js" async="async" defer="defer"></script>
+        <form class="oe_login_form" role="form" method="post" onsubmit="this.action = &#39;/web/login&#39; + location.hash" action="/web/login">
+            <input type="hidden" name="csrf_token" value="fc2b5edcca6150958ad24ee5818ff4d6763919e8o1788928320"/>
+            <div class="mb-3 field-login">
+                <label for="login">Email or Phone</label>
+    <input type="text" placeholder="Email or Phone" name="login" id="login" required="required" autocomplete="username" autofocus="autofocus" autocapitalize="off" class="form-control "/>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" placeholder="Password" name="password" id="login_password" required="required" autocomplete="current-password" maxlength="4096" class="form-control "/>
+      <span class="show-password-label mt-2 d-block" onclick="togglePassword(&#39;login_password&#39;, this)">Lihat Kata Sandi</span>
+            </div>
+            <div class="clearfix oe_login_buttons text-center gap-1 d-grid mb-1 pt-3">
+                <div class="form-group my-3">
+                    <div class="h-captcha" data-sitekey="820c6d4c-de06-4578-9f54-83aafc782ff4" data-callback="onCaptchaSuccess"></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Log in</button>
+                <div class="justify-content-between mt-2 d-flex small">
+                    
+                    <a href="/web/reset_password">Reset Password</a>
+                </div>
+  
+                <div class="o_login_auth"></div></div>
+                                    
+            <input type="hidden" name="redirect" value="/iid_api_manage/post_data?"/>
+      <script type="text/javascript">
+        function togglePassword(fieldId, labelElement) {
+          const input = document.getElementById(fieldId);
+          if (input.type === "password") {
+            input.type = "text";
+            labelElement.textContent = "Sembunyikan Kata Sandi";
+          } else {
+            input.type = "password";
+            labelElement.textContent = "Lihat Kata Sandi";
+          }
+        }
+      </script>
+
+      <style>
+        .show-password-label {
+          display: inline-block;
+          margin-top: 6px;
+          padding: 4px 10px;
+          font-size: 0.75rem;
+          background-color: #1349F8;
+          color: #fff;
+          border-radius: 6px;
+          cursor: pointer;
+          user-select: none;
+          transition: background-color 0.3s ease;
+        }
+        .show-password-label:hover {
+          background-color: #0e3bd0;
+        }
+        @media (max-width: 576px) {
+          .show-password-label {
+            width: 100%;
+            text-align: center;
+            padding: 6px 12px;
+            font-size: 0.8rem;
+          }
+        }
+      </style>
+        </form>
+    </div>
+            
+        
+        <div id="o_shared_blocks" class="oe_unremovable"></div>
+                </main>
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
+                    <div id="footer" class="oe_structure oe_structure_solo">
+            <section class="s_text_block pb0 pt0" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Tautan yang berguna</h5>
+                            <p class="mb-3">
+                                <a href="/">Rumah</a><br/>
+                                <a href="/#Pertanyaan-yang-sering-ditanyakan">Tentang Kami</a><br/>
+                                <a href="/shop">Produk</a><br/>
+                                Layanan<br/>
+                                <a href="/privacy-policy">Legal</a><br/>
+                                <a href="/#Mari-Bekerja-Sama">Hubungi</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-5 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Tentang Kami</h5>
+                            <p>Kresekbag adalah platform e-commerce modern yang dilengkapi dengan teknologi e-invoice untuk mengoptimalkan proses transaksi. Dengan sistem digital terintegrasi, Kresekbag menghilangkan pencatatan manual yang rawan kesalahan dan memakan waktu.</p>
+                        </div>
+                        <div id="connect" class="col-lg-4 offset-lg-1 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Terhubung dengan kami</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="fa fa-phone fa-fw me-2"></i>
+                                    <span class="o_force_ltr">
+                                        <a href="tel:021-55717377">
+                                            <font class="text-o-color-3">021-55717377</font>
+                                        </a><br/>
+                                        <i class="fa fa-1x fa-fw fa-envelope me-2"></i>
+                                        <a href="mailto:info@gpasia4u.com">info@gpasia4u.com</a>
+                                    </span>
+                                </li>
+                                <li><i class="fa fa-map-marker fa-fw me-2"></i>Jl. Puri Utama Blok H1 no.19-22
+Kel. Petir, Kec. Cipondoh, Kota Tangerang, Banten 15147</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="text-center text-muted small pt-2">
+                    V.2.6.19.08.25
+                </div>
+            </section>
+        </div>
+                </footer>
+            </div>
+                <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const statusElement = document.getElementById('status-member');
+                    if (!statusElement) return;
+
+                    fetch('/header/member')
+                        .then(response => response.json())
+                        .then(data => {
+                            const { subscription, warning_expiry, days_left } = data; // pastikan `days_left` juga dikirim dari backend
+
+                            // Default
+                            statusElement.classList.add('text-bg-success');
+                            statusElement.innerText = subscription;
+
+                            if (subscription.includes('Nonaktif')) {
+                                statusElement.classList.remove('text-bg-success');
+                                statusElement.classList.add('text-bg-secondary');
+                                statusElement.style.cursor = 'pointer';
+                                statusElement.addEventListener('click', () => {
+                                    window.location.href = '/pilihpembayaran';
+                                });
+                            }
+
+                            if (warning_expiry) {
+                                // Tambahkan efek visual: border kuning dan ikon notif kecil
+                                statusElement.style.border = '2px solid #ffc107';
+                                statusElement.style.boxShadow = '0 0 6px #ffc107';
+                                statusElement.innerText = subscription;
+
+                                // Tambahkan tanda seru kecil (notifikasi)
+                                const notif = document.createElement('span');
+                                notif.innerHTML = '<i class="fa fa-exclamation-circle text-warning"></i>';
+                                notif.style.position = 'absolute';
+                                notif.style.top = '-6px';
+                                notif.style.right = '-6px';
+                                notif.style.backgroundColor = '#fff';
+                                notif.style.borderRadius = '50%';
+                                notif.style.fontSize = '12px';
+                                notif.style.padding = '2px';
+
+                                // Buat parent-nya relative agar posisinya sesuai
+                                statusElement.style.position = 'relative';
+                                statusElement.appendChild(notif);
+
+                                // Tambahkan tooltip dengan title
+                                statusElement.title = `Membership Anda akan berakhir dalam ${days_left} hari.`;
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error fetching subscription:', error);
+                        });
+                });
+                </script>
+                
+        
+    </body>
+</html>
+
+[11:32:10] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:32:10] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:32:10] - Cron-Mini-ATM - Send to odoo  : <!DOCTYPE html>
+<html lang="en-US" data-website-id="1" data-main-object="ir.ui.view(2653,)" data-add2cart-redirect="1">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="generator" content="Odoo"/>
+            
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Login | My Website"/>
+        <meta property="og:site_name" content="My Website"/>
+        <meta property="og:url" content="http://192.101.1.14:7002/web/login"/>
+        <meta property="og:image" content="http://192.101.1.14:7002/web/image/website/1/logo?unique=32c096c"/>
+            
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Login | My Website"/>
+        <meta name="twitter:image" content="http://192.101.1.14:7002/web/image/website/1/logo/300x300?unique=32c096c"/>
+        
+        <link rel="canonical" href="http://kleverpays.com/reset-password/web/login"/>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        <title>Login | My Website</title>
+        <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=32c096c"/>
+        <link rel="preload" href="/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
+        <link type="text/css" rel="stylesheet" href="/web/assets/1/3d00b10/web.assets_frontend.min.css"/>
+        <script id="web.layout.odooscript" type="text/javascript">
+            var odoo = {
+                csrf_token: "d7d31a5f2d1b68203db64a779af2311acb8ccf64o1788928330",
+                debug: "",
+            };
+        </script>
+        <script type="text/javascript">
+            odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_public": true, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "currencies": {"12": {"symbol": "Rp", "position": "before", "digits": [69, 2]}, "1": {"symbol": "$", "position": "before", "digits": [69, 2]}}, "bundle_params": {"lang": "en_US", "website_id": 1}, "websocket_worker_version": "17.0-1", "translationURL": "/website/translations", "cache_hashes": {"translations": "452ddba79841fad29129721bdca411b64e90bfd8"}, "geoip_country_code": null, "geoip_phone_code": null, "lang_url_code": "en"};
+            if (!/(^|;\s)tz=/.test(document.cookie)) {
+                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                document.cookie = `tz=${userTZ}; path=/`;
+            }
+        </script>
+        <script type="text/javascript" defer="defer" src="/web/assets/1/9ee6232/web.assets_frontend_minimal.min.js" onerror="__odooAssetError=1"></script>
+        <script type="text/javascript" defer="defer" data-src="/web/assets/1/1a05197/web.assets_frontend_lazy.min.js" onerror="__odooAssetError=1"></script>
+        
+                    <script>
+                        
+            
+                if (!window.odoo) {
+                    window.odoo = {};
+                }
+                odoo.__session_info__ = Object.assign(odoo.__session_info__ || {}, {
+                    livechatData: {
+                        isAvailable: false,
+                        serverUrl: "http://kleverpays.com/reset-password",
+                        options: {},
+                    },
+                });
+            
+                    </script>
+        
+    </head>
+    <body>
+
+
+
+        <div id="wrapwrap" class="   ">
+                <header id="top" data-anchor="true" data-name="Header" data-extra-items-toggle-aria-label="Extra items button" class="   o_header_standard o_hoverable_dropdown" style=" ">
+                    
+    <nav data-name="Navbar" aria-label="Main" class="navbar navbar-expand-lg navbar-light o_colored_level o_cc d-none d-lg-block shadow-sm ">
+        
+
+            <div id="o_main_nav" class="o_main_nav container">
+                
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo me-4">
+                
+                <img src="/iid_marketplace/static/img/logo_aipos2.png" role="img" aria-label="Logo of My Website" title="My Website" loading="lazy"/>
+            </a>
+        
+                
+    <ul id="top_menu" role="menu" class="nav navbar-nav top_menu o_menu_loading me-auto">
+        
+
+                    
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Produk</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/#Kategori-Produk" class="dropdown-item ">
+            <span>E-Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/elektronik-1" class="dropdown-item ">
+            <span>Elektronik</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/topup-2" class="dropdown-item ">
+            <span>Top Up &amp; Tagihan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/handphone-tablet-3" class="dropdown-item ">
+            <span>Handphone &amp; Tablet</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/perawatan-hewan-4" class="dropdown-item ">
+            <span>Perawatan Hewan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/travel-entertainment-5" class="dropdown-item ">
+            <span>Travel &amp; Entertaiment</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="https://kleverpays.com/shop" class="nav-link ">
+            <span>Belanja</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Hubungi Kami</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Privasi dan Syarat</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/privacy-policy" class="dropdown-item ">
+            <span>Privasi dan Kebijakan</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/my/dashboard" class="nav-link ">
+            <span>Dashboard</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Invoicing</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/invoicing" class="dropdown-item ">
+            <span>Create Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="/my/invoicing" class="dropdown-item ">
+            <span>My Invoices</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+                
+    </ul>
+                
+                <ul class="navbar-nav align-items-center gap-2 flex-shrink-0 justify-content-end ps-3">
+                    
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart d-none ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background btn position-relative rounded-circle p-1 text-center text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-danger position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                    
+                    
+        <div data-name="Text" style="display: flex; align-items: center; gap: 8px;" class="s_text_block ">
+                    
+                    <a href="/my/orders" class="btn o_navlink_background text-reset o_not_editable" style="width: 41.6px; height: 41.6px; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 0;">
+                        <i class="fa fa-1x fa-fw fa-clipboard" style="margin: 0; font-size: 18px; line-height: 1;"></i>
+                    </a>
+
+                    
+                    <span class="badge text o_not_editable" id="status-member" style="cursor: default; font-size: 0.75rem; padding: 6px 10px; border-radius: 1rem;">
+                        
+                    </span>
+                </div>
+                    
+                    
+        <li data-name="Language Selector" class="o_header_language_selector ">
+    
+    
+        </li>
+                    
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary">Masuk</a>
+            </li>
+            
+            <li class=" o_no_autohide_item">
+            <a href="/pilih-pendaftaran" class="btn btn-outline-secondary">
+                Daftar
+            </a>
+        </li>
+                    
+        
+        
+                    
+                </ul>
+            </div>
+        
+    </nav>
+    <nav data-name="Navbar" aria-label="Mobile" class="navbar  navbar-light o_colored_level o_cc o_header_mobile d-block d-lg-none shadow-sm px-0 ">
+        
+
+        <div class="o_main_nav container flex-wrap justify-content-between">
+            
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo ">
+                
+                <img src="/iid_marketplace/static/img/logo_aipos2.png" role="img" aria-label="Logo of My Website" title="My Website" loading="lazy"/>
+            </a>
+        
+            <ul class="o_header_mobile_buttons_wrap navbar-nav flex-row align-items-center gap-2 mb-0">
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart d-none ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background_hover btn position-relative rounded-circle border-0 p-1 text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-danger position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                <li class="o_not_editable">
+                    <button class="nav-link btn me-auto p-2 o_not_editable" type="button" data-bs-toggle="offcanvas" data-bs-target="#top_menu_collapse_mobile" aria-controls="top_menu_collapse_mobile" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </li>
+            </ul>
+            <div id="top_menu_collapse_mobile" class="offcanvas offcanvas-end o_navbar_mobile">
+                <div class="offcanvas-header justify-content-end o_not_editable">
+                    <button type="button" class="nav-link btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column justify-content-between h-100 w-100">
+                    <ul class="navbar-nav">
+                        
+                        
+                        
+    <ul role="menu" class="nav navbar-nav top_menu  ">
+        
+
+                            
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Produk</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/#Kategori-Produk" class="dropdown-item ">
+            <span>E-Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/elektronik-1" class="dropdown-item ">
+            <span>Elektronik</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/topup-2" class="dropdown-item ">
+            <span>Top Up &amp; Tagihan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/handphone-tablet-3" class="dropdown-item ">
+            <span>Handphone &amp; Tablet</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/perawatan-hewan-4" class="dropdown-item ">
+            <span>Perawatan Hewan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/travel-entertainment-5" class="dropdown-item ">
+            <span>Travel &amp; Entertaiment</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="https://kleverpays.com/shop" class="nav-link ">
+            <span>Belanja</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Hubungi Kami</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Privasi dan Syarat</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/privacy-policy" class="dropdown-item ">
+            <span>Privasi dan Kebijakan</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/my/dashboard" class="nav-link ">
+            <span>Dashboard</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Invoicing</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/invoicing" class="dropdown-item ">
+            <span>Create Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="/my/invoicing" class="dropdown-item ">
+            <span>My Invoices</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+                        
+    </ul>
+                        
+        <div data-name="Text" style="display: flex; align-items: center; gap: 8px;" class="s_text_block mt-2 border-top pt-2 o_border_contrast">
+                    
+                    <a href="/my/orders" class="btn o_navlink_background text-reset o_not_editable" style="width: 41.6px; height: 41.6px; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 0;">
+                        <i class="fa fa-1x fa-fw fa-clipboard" style="margin: 0; font-size: 18px; line-height: 1;"></i>
+                    </a>
+
+                    
+                    <span class="badge text o_not_editable" id="status-member" style="cursor: default; font-size: 0.75rem; padding: 6px 10px; border-radius: 1rem;">
+                        
+                    </span>
+                </div>
+                        
+                    </ul>
+                    <ul class="navbar-nav gap-2 mt-3 w-100">
+                        
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary w-100">Masuk</a>
+            </li>
+            
+            <li class=" o_no_autohide_item">
+            <a href="/pilih-pendaftaran" class="btn btn-outline-secondary w-100">
+                Daftar
+            </a>
+        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+                        
+        
+        
+                        
+        <li data-name="Language Selector" class="o_header_language_selector ">
+    
+    
+        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </nav>
+    
+        </header>
+                <main>
+                    
+            <div class="oe_website_login_container">
+                
+                <script src="https://hcaptcha.com/1/api.js" async="async" defer="defer"></script>
+
+                
+                <script type="text/javascript">
+                    function onCaptchaSuccess() {
+                        var errorElement = document.getElementById("login_error");
+                        if (errorElement) {
+                            errorElement.remove(); // atau gunakan: errorElement.style.display = 'none';
+                        }
+                    }
+                </script>
+                <script src="https://hcaptcha.com/1/api.js" async="async" defer="defer"></script>
+        <form class="oe_login_form" role="form" method="post" onsubmit="this.action = &#39;/web/login&#39; + location.hash" action="/web/login">
+            <input type="hidden" name="csrf_token" value="d7d31a5f2d1b68203db64a779af2311acb8ccf64o1788928330"/>
+            <div class="mb-3 field-login">
+                <label for="login">Email or Phone</label>
+    <input type="text" placeholder="Email or Phone" name="login" id="login" required="required" autocomplete="username" autofocus="autofocus" autocapitalize="off" class="form-control "/>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" placeholder="Password" name="password" id="login_password" required="required" autocomplete="current-password" maxlength="4096" class="form-control "/>
+      <span class="show-password-label mt-2 d-block" onclick="togglePassword(&#39;login_password&#39;, this)">Lihat Kata Sandi</span>
+            </div>
+            <div class="clearfix oe_login_buttons text-center gap-1 d-grid mb-1 pt-3">
+                <div class="form-group my-3">
+                    <div class="h-captcha" data-sitekey="820c6d4c-de06-4578-9f54-83aafc782ff4" data-callback="onCaptchaSuccess"></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Log in</button>
+                <div class="justify-content-between mt-2 d-flex small">
+                    
+                    <a href="/web/reset_password">Reset Password</a>
+                </div>
+  
+                <div class="o_login_auth"></div></div>
+                                    
+            <input type="hidden" name="redirect" value="/iid_api_manage/post_data?"/>
+      <script type="text/javascript">
+        function togglePassword(fieldId, labelElement) {
+          const input = document.getElementById(fieldId);
+          if (input.type === "password") {
+            input.type = "text";
+            labelElement.textContent = "Sembunyikan Kata Sandi";
+          } else {
+            input.type = "password";
+            labelElement.textContent = "Lihat Kata Sandi";
+          }
+        }
+      </script>
+
+      <style>
+        .show-password-label {
+          display: inline-block;
+          margin-top: 6px;
+          padding: 4px 10px;
+          font-size: 0.75rem;
+          background-color: #1349F8;
+          color: #fff;
+          border-radius: 6px;
+          cursor: pointer;
+          user-select: none;
+          transition: background-color 0.3s ease;
+        }
+        .show-password-label:hover {
+          background-color: #0e3bd0;
+        }
+        @media (max-width: 576px) {
+          .show-password-label {
+            width: 100%;
+            text-align: center;
+            padding: 6px 12px;
+            font-size: 0.8rem;
+          }
+        }
+      </style>
+        </form>
+    </div>
+            
+        
+        <div id="o_shared_blocks" class="oe_unremovable"></div>
+                </main>
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
+                    <div id="footer" class="oe_structure oe_structure_solo">
+            <section class="s_text_block pb0 pt0" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Tautan yang berguna</h5>
+                            <p class="mb-3">
+                                <a href="/">Rumah</a><br/>
+                                <a href="/#Pertanyaan-yang-sering-ditanyakan">Tentang Kami</a><br/>
+                                <a href="/shop">Produk</a><br/>
+                                Layanan<br/>
+                                <a href="/privacy-policy">Legal</a><br/>
+                                <a href="/#Mari-Bekerja-Sama">Hubungi</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-5 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Tentang Kami</h5>
+                            <p>Kresekbag adalah platform e-commerce modern yang dilengkapi dengan teknologi e-invoice untuk mengoptimalkan proses transaksi. Dengan sistem digital terintegrasi, Kresekbag menghilangkan pencatatan manual yang rawan kesalahan dan memakan waktu.</p>
+                        </div>
+                        <div id="connect" class="col-lg-4 offset-lg-1 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Terhubung dengan kami</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="fa fa-phone fa-fw me-2"></i>
+                                    <span class="o_force_ltr">
+                                        <a href="tel:021-55717377">
+                                            <font class="text-o-color-3">021-55717377</font>
+                                        </a><br/>
+                                        <i class="fa fa-1x fa-fw fa-envelope me-2"></i>
+                                        <a href="mailto:info@gpasia4u.com">info@gpasia4u.com</a>
+                                    </span>
+                                </li>
+                                <li><i class="fa fa-map-marker fa-fw me-2"></i>Jl. Puri Utama Blok H1 no.19-22
+Kel. Petir, Kec. Cipondoh, Kota Tangerang, Banten 15147</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="text-center text-muted small pt-2">
+                    V.2.6.19.08.25
+                </div>
+            </section>
+        </div>
+                </footer>
+            </div>
+                <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const statusElement = document.getElementById('status-member');
+                    if (!statusElement) return;
+
+                    fetch('/header/member')
+                        .then(response => response.json())
+                        .then(data => {
+                            const { subscription, warning_expiry, days_left } = data; // pastikan `days_left` juga dikirim dari backend
+
+                            // Default
+                            statusElement.classList.add('text-bg-success');
+                            statusElement.innerText = subscription;
+
+                            if (subscription.includes('Nonaktif')) {
+                                statusElement.classList.remove('text-bg-success');
+                                statusElement.classList.add('text-bg-secondary');
+                                statusElement.style.cursor = 'pointer';
+                                statusElement.addEventListener('click', () => {
+                                    window.location.href = '/pilihpembayaran';
+                                });
+                            }
+
+                            if (warning_expiry) {
+                                // Tambahkan efek visual: border kuning dan ikon notif kecil
+                                statusElement.style.border = '2px solid #ffc107';
+                                statusElement.style.boxShadow = '0 0 6px #ffc107';
+                                statusElement.innerText = subscription;
+
+                                // Tambahkan tanda seru kecil (notifikasi)
+                                const notif = document.createElement('span');
+                                notif.innerHTML = '<i class="fa fa-exclamation-circle text-warning"></i>';
+                                notif.style.position = 'absolute';
+                                notif.style.top = '-6px';
+                                notif.style.right = '-6px';
+                                notif.style.backgroundColor = '#fff';
+                                notif.style.borderRadius = '50%';
+                                notif.style.fontSize = '12px';
+                                notif.style.padding = '2px';
+
+                                // Buat parent-nya relative agar posisinya sesuai
+                                statusElement.style.position = 'relative';
+                                statusElement.appendChild(notif);
+
+                                // Tambahkan tooltip dengan title
+                                statusElement.title = `Membership Anda akan berakhir dalam ${days_left} hari.`;
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error fetching subscription:', error);
+                        });
+                });
+                </script>
+                
+        
+    </body>
+</html>
+
+[11:32:20] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[11:32:20] - Cron-Mini-ATM - Cookie odoo empty!
+
+[11:32:20] - Cron-Mini-ATM - Send to odoo  : <!DOCTYPE html>
+<html lang="en-US" data-website-id="1" data-main-object="ir.ui.view(2653,)" data-add2cart-redirect="1">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="generator" content="Odoo"/>
+            
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Login | My Website"/>
+        <meta property="og:site_name" content="My Website"/>
+        <meta property="og:url" content="http://192.101.1.14:7002/web/login"/>
+        <meta property="og:image" content="http://192.101.1.14:7002/web/image/website/1/logo?unique=32c096c"/>
+            
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Login | My Website"/>
+        <meta name="twitter:image" content="http://192.101.1.14:7002/web/image/website/1/logo/300x300?unique=32c096c"/>
+        
+        <link rel="canonical" href="http://kleverpays.com/reset-password/web/login"/>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        <title>Login | My Website</title>
+        <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=32c096c"/>
+        <link rel="preload" href="/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
+        <link type="text/css" rel="stylesheet" href="/web/assets/1/3d00b10/web.assets_frontend.min.css"/>
+        <script id="web.layout.odooscript" type="text/javascript">
+            var odoo = {
+                csrf_token: "2dcc1f6dfd49b29a936cf0b2ffa1b8718f73e110o1788928340",
+                debug: "",
+            };
+        </script>
+        <script type="text/javascript">
+            odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_public": true, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "currencies": {"12": {"symbol": "Rp", "position": "before", "digits": [69, 2]}, "1": {"symbol": "$", "position": "before", "digits": [69, 2]}}, "bundle_params": {"lang": "en_US", "website_id": 1}, "websocket_worker_version": "17.0-1", "translationURL": "/website/translations", "cache_hashes": {"translations": "452ddba79841fad29129721bdca411b64e90bfd8"}, "geoip_country_code": null, "geoip_phone_code": null, "lang_url_code": "en"};
+            if (!/(^|;\s)tz=/.test(document.cookie)) {
+                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                document.cookie = `tz=${userTZ}; path=/`;
+            }
+        </script>
+        <script type="text/javascript" defer="defer" src="/web/assets/1/9ee6232/web.assets_frontend_minimal.min.js" onerror="__odooAssetError=1"></script>
+        <script type="text/javascript" defer="defer" data-src="/web/assets/1/1a05197/web.assets_frontend_lazy.min.js" onerror="__odooAssetError=1"></script>
+        
+                    <script>
+                        
+            
+                if (!window.odoo) {
+                    window.odoo = {};
+                }
+                odoo.__session_info__ = Object.assign(odoo.__session_info__ || {}, {
+                    livechatData: {
+                        isAvailable: false,
+                        serverUrl: "http://kleverpays.com/reset-password",
+                        options: {},
+                    },
+                });
+            
+                    </script>
+        
+    </head>
+    <body>
+
+
+
+        <div id="wrapwrap" class="   ">
+                <header id="top" data-anchor="true" data-name="Header" data-extra-items-toggle-aria-label="Extra items button" class="   o_header_standard o_hoverable_dropdown" style=" ">
+                    
+    <nav data-name="Navbar" aria-label="Main" class="navbar navbar-expand-lg navbar-light o_colored_level o_cc d-none d-lg-block shadow-sm ">
+        
+
+            <div id="o_main_nav" class="o_main_nav container">
+                
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo me-4">
+                
+                <img src="/iid_marketplace/static/img/logo_aipos2.png" role="img" aria-label="Logo of My Website" title="My Website" loading="lazy"/>
+            </a>
+        
+                
+    <ul id="top_menu" role="menu" class="nav navbar-nav top_menu o_menu_loading me-auto">
+        
+
+                    
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Produk</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/#Kategori-Produk" class="dropdown-item ">
+            <span>E-Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/elektronik-1" class="dropdown-item ">
+            <span>Elektronik</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/topup-2" class="dropdown-item ">
+            <span>Top Up &amp; Tagihan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/handphone-tablet-3" class="dropdown-item ">
+            <span>Handphone &amp; Tablet</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/perawatan-hewan-4" class="dropdown-item ">
+            <span>Perawatan Hewan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/travel-entertainment-5" class="dropdown-item ">
+            <span>Travel &amp; Entertaiment</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="https://kleverpays.com/shop" class="nav-link ">
+            <span>Belanja</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Hubungi Kami</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Privasi dan Syarat</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/privacy-policy" class="dropdown-item ">
+            <span>Privasi dan Kebijakan</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/my/dashboard" class="nav-link ">
+            <span>Dashboard</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Invoicing</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/invoicing" class="dropdown-item ">
+            <span>Create Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="/my/invoicing" class="dropdown-item ">
+            <span>My Invoices</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+                
+    </ul>
+                
+                <ul class="navbar-nav align-items-center gap-2 flex-shrink-0 justify-content-end ps-3">
+                    
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart d-none ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background btn position-relative rounded-circle p-1 text-center text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-danger position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                    
+                    
+        <div data-name="Text" style="display: flex; align-items: center; gap: 8px;" class="s_text_block ">
+                    
+                    <a href="/my/orders" class="btn o_navlink_background text-reset o_not_editable" style="width: 41.6px; height: 41.6px; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 0;">
+                        <i class="fa fa-1x fa-fw fa-clipboard" style="margin: 0; font-size: 18px; line-height: 1;"></i>
+                    </a>
+
+                    
+                    <span class="badge text o_not_editable" id="status-member" style="cursor: default; font-size: 0.75rem; padding: 6px 10px; border-radius: 1rem;">
+                        
+                    </span>
+                </div>
+                    
+                    
+        <li data-name="Language Selector" class="o_header_language_selector ">
+    
+    
+        </li>
+                    
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary">Masuk</a>
+            </li>
+            
+            <li class=" o_no_autohide_item">
+            <a href="/pilih-pendaftaran" class="btn btn-outline-secondary">
+                Daftar
+            </a>
+        </li>
+                    
+        
+        
+                    
+                </ul>
+            </div>
+        
+    </nav>
+    <nav data-name="Navbar" aria-label="Mobile" class="navbar  navbar-light o_colored_level o_cc o_header_mobile d-block d-lg-none shadow-sm px-0 ">
+        
+
+        <div class="o_main_nav container flex-wrap justify-content-between">
+            
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo ">
+                
+                <img src="/iid_marketplace/static/img/logo_aipos2.png" role="img" aria-label="Logo of My Website" title="My Website" loading="lazy"/>
+            </a>
+        
+            <ul class="o_header_mobile_buttons_wrap navbar-nav flex-row align-items-center gap-2 mb-0">
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart d-none ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background_hover btn position-relative rounded-circle border-0 p-1 text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-danger position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                <li class="o_not_editable">
+                    <button class="nav-link btn me-auto p-2 o_not_editable" type="button" data-bs-toggle="offcanvas" data-bs-target="#top_menu_collapse_mobile" aria-controls="top_menu_collapse_mobile" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </li>
+            </ul>
+            <div id="top_menu_collapse_mobile" class="offcanvas offcanvas-end o_navbar_mobile">
+                <div class="offcanvas-header justify-content-end o_not_editable">
+                    <button type="button" class="nav-link btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column justify-content-between h-100 w-100">
+                    <ul class="navbar-nav">
+                        
+                        
+                        
+    <ul role="menu" class="nav navbar-nav top_menu  ">
+        
+
+                            
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Produk</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/#Kategori-Produk" class="dropdown-item ">
+            <span>E-Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/elektronik-1" class="dropdown-item ">
+            <span>Elektronik</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/topup-2" class="dropdown-item ">
+            <span>Top Up &amp; Tagihan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/handphone-tablet-3" class="dropdown-item ">
+            <span>Handphone &amp; Tablet</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/perawatan-hewan-4" class="dropdown-item ">
+            <span>Perawatan Hewan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/travel-entertainment-5" class="dropdown-item ">
+            <span>Travel &amp; Entertaiment</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="https://kleverpays.com/shop" class="nav-link ">
+            <span>Belanja</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Hubungi Kami</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Privasi dan Syarat</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/privacy-policy" class="dropdown-item ">
+            <span>Privasi dan Kebijakan</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/my/dashboard" class="nav-link ">
+            <span>Dashboard</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Invoicing</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/invoicing" class="dropdown-item ">
+            <span>Create Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="/my/invoicing" class="dropdown-item ">
+            <span>My Invoices</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+                        
+    </ul>
+                        
+        <div data-name="Text" style="display: flex; align-items: center; gap: 8px;" class="s_text_block mt-2 border-top pt-2 o_border_contrast">
+                    
+                    <a href="/my/orders" class="btn o_navlink_background text-reset o_not_editable" style="width: 41.6px; height: 41.6px; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 0;">
+                        <i class="fa fa-1x fa-fw fa-clipboard" style="margin: 0; font-size: 18px; line-height: 1;"></i>
+                    </a>
+
+                    
+                    <span class="badge text o_not_editable" id="status-member" style="cursor: default; font-size: 0.75rem; padding: 6px 10px; border-radius: 1rem;">
+                        
+                    </span>
+                </div>
+                        
+                    </ul>
+                    <ul class="navbar-nav gap-2 mt-3 w-100">
+                        
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary w-100">Masuk</a>
+            </li>
+            
+            <li class=" o_no_autohide_item">
+            <a href="/pilih-pendaftaran" class="btn btn-outline-secondary w-100">
+                Daftar
+            </a>
+        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+                        
+        
+        
+                        
+        <li data-name="Language Selector" class="o_header_language_selector ">
+    
+    
+        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </nav>
+    
+        </header>
+                <main>
+                    
+            <div class="oe_website_login_container">
+                
+                <script src="https://hcaptcha.com/1/api.js" async="async" defer="defer"></script>
+
+                
+                <script type="text/javascript">
+                    function onCaptchaSuccess() {
+                        var errorElement = document.getElementById("login_error");
+                        if (errorElement) {
+                            errorElement.remove(); // atau gunakan: errorElement.style.display = 'none';
+                        }
+                    }
+                </script>
+                <script src="https://hcaptcha.com/1/api.js" async="async" defer="defer"></script>
+        <form class="oe_login_form" role="form" method="post" onsubmit="this.action = &#39;/web/login&#39; + location.hash" action="/web/login">
+            <input type="hidden" name="csrf_token" value="e887eafa4e5d97b0d55c1d10493f275f93e35760o1788928339"/>
+            <div class="mb-3 field-login">
+                <label for="login">Email or Phone</label>
+    <input type="text" placeholder="Email or Phone" name="login" id="login" required="required" autocomplete="username" autofocus="autofocus" autocapitalize="off" class="form-control "/>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" placeholder="Password" name="password" id="login_password" required="required" autocomplete="current-password" maxlength="4096" class="form-control "/>
+      <span class="show-password-label mt-2 d-block" onclick="togglePassword(&#39;login_password&#39;, this)">Lihat Kata Sandi</span>
+            </div>
+            <div class="clearfix oe_login_buttons text-center gap-1 d-grid mb-1 pt-3">
+                <div class="form-group my-3">
+                    <div class="h-captcha" data-sitekey="820c6d4c-de06-4578-9f54-83aafc782ff4" data-callback="onCaptchaSuccess"></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Log in</button>
+                <div class="justify-content-between mt-2 d-flex small">
+                    
+                    <a href="/web/reset_password">Reset Password</a>
+                </div>
+  
+                <div class="o_login_auth"></div></div>
+                                    
+            <input type="hidden" name="redirect" value="/iid_api_manage/post_data?"/>
+      <script type="text/javascript">
+        function togglePassword(fieldId, labelElement) {
+          const input = document.getElementById(fieldId);
+          if (input.type === "password") {
+            input.type = "text";
+            labelElement.textContent = "Sembunyikan Kata Sandi";
+          } else {
+            input.type = "password";
+            labelElement.textContent = "Lihat Kata Sandi";
+          }
+        }
+      </script>
+
+      <style>
+        .show-password-label {
+          display: inline-block;
+          margin-top: 6px;
+          padding: 4px 10px;
+          font-size: 0.75rem;
+          background-color: #1349F8;
+          color: #fff;
+          border-radius: 6px;
+          cursor: pointer;
+          user-select: none;
+          transition: background-color 0.3s ease;
+        }
+        .show-password-label:hover {
+          background-color: #0e3bd0;
+        }
+        @media (max-width: 576px) {
+          .show-password-label {
+            width: 100%;
+            text-align: center;
+            padding: 6px 12px;
+            font-size: 0.8rem;
+          }
+        }
+      </style>
+        </form>
+    </div>
+            
+        
+        <div id="o_shared_blocks" class="oe_unremovable"></div>
+                </main>
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
+                    <div id="footer" class="oe_structure oe_structure_solo">
+            <section class="s_text_block pb0 pt0" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Tautan yang berguna</h5>
+                            <p class="mb-3">
+                                <a href="/">Rumah</a><br/>
+                                <a href="/#Pertanyaan-yang-sering-ditanyakan">Tentang Kami</a><br/>
+                                <a href="/shop">Produk</a><br/>
+                                Layanan<br/>
+                                <a href="/privacy-policy">Legal</a><br/>
+                                <a href="/#Mari-Bekerja-Sama">Hubungi</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-5 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Tentang Kami</h5>
+                            <p>Kresekbag adalah platform e-commerce modern yang dilengkapi dengan teknologi e-invoice untuk mengoptimalkan proses transaksi. Dengan sistem digital terintegrasi, Kresekbag menghilangkan pencatatan manual yang rawan kesalahan dan memakan waktu.</p>
+                        </div>
+                        <div id="connect" class="col-lg-4 offset-lg-1 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Terhubung dengan kami</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="fa fa-phone fa-fw me-2"></i>
+                                    <span class="o_force_ltr">
+                                        <a href="tel:021-55717377">
+                                            <font class="text-o-color-3">021-55717377</font>
+                                        </a><br/>
+                                        <i class="fa fa-1x fa-fw fa-envelope me-2"></i>
+                                        <a href="mailto:info@gpasia4u.com">info@gpasia4u.com</a>
+                                    </span>
+                                </li>
+                                <li><i class="fa fa-map-marker fa-fw me-2"></i>Jl. Puri Utama Blok H1 no.19-22
+Kel. Petir, Kec. Cipondoh, Kota Tangerang, Banten 15147</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="text-center text-muted small pt-2">
+                    V.2.6.19.08.25
+                </div>
+            </section>
+        </div>
+                </footer>
+            </div>
+                <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const statusElement = document.getElementById('status-member');
+                    if (!statusElement) return;
+
+                    fetch('/header/member')
+                        .then(response => response.json())
+                        .then(data => {
+                            const { subscription, warning_expiry, days_left } = data; // pastikan `days_left` juga dikirim dari backend
+
+                            // Default
+                            statusElement.classList.add('text-bg-success');
+                            statusElement.innerText = subscription;
+
+                            if (subscription.includes('Nonaktif')) {
+                                statusElement.classList.remove('text-bg-success');
+                                statusElement.classList.add('text-bg-secondary');
+                                statusElement.style.cursor = 'pointer';
+                                statusElement.addEventListener('click', () => {
+                                    window.location.href = '/pilihpembayaran';
+                                });
+                            }
+
+                            if (warning_expiry) {
+                                // Tambahkan efek visual: border kuning dan ikon notif kecil
+                                statusElement.style.border = '2px solid #ffc107';
+                                statusElement.style.boxShadow = '0 0 6px #ffc107';
+                                statusElement.innerText = subscription;
+
+                                // Tambahkan tanda seru kecil (notifikasi)
+                                const notif = document.createElement('span');
+                                notif.innerHTML = '<i class="fa fa-exclamation-circle text-warning"></i>';
+                                notif.style.position = 'absolute';
+                                notif.style.top = '-6px';
+                                notif.style.right = '-6px';
+                                notif.style.backgroundColor = '#fff';
+                                notif.style.borderRadius = '50%';
+                                notif.style.fontSize = '12px';
+                                notif.style.padding = '2px';
+
+                                // Buat parent-nya relative agar posisinya sesuai
+                                statusElement.style.position = 'relative';
+                                statusElement.appendChild(notif);
+
+                                // Tambahkan tooltip dengan title
+                                statusElement.title = `Membership Anda akan berakhir dalam ${days_left} hari.`;
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error fetching subscription:', error);
+                        });
+                });
+                </script>
+                
+        
+    </body>
+</html>
+
+[16:22:22] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[16:22:22] - Cron-Mini-ATM - Cookie odoo empty!
+
+[16:22:24] - Cron-Mini-ATM - Send to odoo  : <!DOCTYPE html>
+<html lang="en-US" data-website-id="1" data-main-object="ir.ui.view(2653,)" data-add2cart-redirect="1">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="generator" content="Odoo"/>
+            
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Login | My Website"/>
+        <meta property="og:site_name" content="My Website"/>
+        <meta property="og:url" content="http://192.101.1.14:7002/web/login"/>
+        <meta property="og:image" content="http://192.101.1.14:7002/web/image/website/1/logo?unique=32c096c"/>
+            
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Login | My Website"/>
+        <meta name="twitter:image" content="http://192.101.1.14:7002/web/image/website/1/logo/300x300?unique=32c096c"/>
+        
+        <link rel="canonical" href="http://kleverpays.com/reset-password/web/login"/>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        <title>Login | My Website</title>
+        <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=32c096c"/>
+        <link rel="preload" href="/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
+        <link type="text/css" rel="stylesheet" href="/web/assets/1/3d00b10/web.assets_frontend.min.css"/>
+        <script id="web.layout.odooscript" type="text/javascript">
+            var odoo = {
+                csrf_token: "55d98b32cd7d59684383ccbc3cb8d6680b7d5039o1788945743",
+                debug: "",
+            };
+        </script>
+        <script type="text/javascript">
+            odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_public": true, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "currencies": {"12": {"symbol": "Rp", "position": "before", "digits": [69, 2]}, "1": {"symbol": "$", "position": "before", "digits": [69, 2]}}, "bundle_params": {"lang": "en_US", "website_id": 1}, "websocket_worker_version": "17.0-1", "translationURL": "/website/translations", "cache_hashes": {"translations": "452ddba79841fad29129721bdca411b64e90bfd8"}, "geoip_country_code": null, "geoip_phone_code": null, "lang_url_code": "en"};
+            if (!/(^|;\s)tz=/.test(document.cookie)) {
+                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                document.cookie = `tz=${userTZ}; path=/`;
+            }
+        </script>
+        <script type="text/javascript" defer="defer" src="/web/assets/1/9ee6232/web.assets_frontend_minimal.min.js" onerror="__odooAssetError=1"></script>
+        <script type="text/javascript" defer="defer" data-src="/web/assets/1/1a05197/web.assets_frontend_lazy.min.js" onerror="__odooAssetError=1"></script>
+        
+                    <script>
+                        
+            
+                if (!window.odoo) {
+                    window.odoo = {};
+                }
+                odoo.__session_info__ = Object.assign(odoo.__session_info__ || {}, {
+                    livechatData: {
+                        isAvailable: false,
+                        serverUrl: "http://kleverpays.com/reset-password",
+                        options: {},
+                    },
+                });
+            
+                    </script>
+        
+    </head>
+    <body>
+
+
+
+        <div id="wrapwrap" class="   ">
+                <header id="top" data-anchor="true" data-name="Header" data-extra-items-toggle-aria-label="Extra items button" class="   o_header_standard o_hoverable_dropdown" style=" ">
+                    
+    <nav data-name="Navbar" aria-label="Main" class="navbar navbar-expand-lg navbar-light o_colored_level o_cc d-none d-lg-block shadow-sm ">
+        
+
+            <div id="o_main_nav" class="o_main_nav container">
+                
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo me-4">
+                
+                <img src="/iid_marketplace/static/img/logo_aipos2.png" role="img" aria-label="Logo of My Website" title="My Website" loading="lazy"/>
+            </a>
+        
+                
+    <ul id="top_menu" role="menu" class="nav navbar-nav top_menu o_menu_loading me-auto">
+        
+
+                    
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Produk</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/#Kategori-Produk" class="dropdown-item ">
+            <span>E-Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/elektronik-1" class="dropdown-item ">
+            <span>Elektronik</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/topup-2" class="dropdown-item ">
+            <span>Top Up &amp; Tagihan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/handphone-tablet-3" class="dropdown-item ">
+            <span>Handphone &amp; Tablet</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/perawatan-hewan-4" class="dropdown-item ">
+            <span>Perawatan Hewan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/travel-entertainment-5" class="dropdown-item ">
+            <span>Travel &amp; Entertaiment</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="https://kleverpays.com/shop" class="nav-link ">
+            <span>Belanja</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Hubungi Kami</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Privasi dan Syarat</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/privacy-policy" class="dropdown-item ">
+            <span>Privasi dan Kebijakan</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/my/dashboard" class="nav-link ">
+            <span>Dashboard</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Invoicing</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/invoicing" class="dropdown-item ">
+            <span>Create Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="/my/invoicing" class="dropdown-item ">
+            <span>My Invoices</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+                
+    </ul>
+                
+                <ul class="navbar-nav align-items-center gap-2 flex-shrink-0 justify-content-end ps-3">
+                    
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart d-none ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background btn position-relative rounded-circle p-1 text-center text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-danger position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                    
+                    
+        <div data-name="Text" style="display: flex; align-items: center; gap: 8px;" class="s_text_block ">
+                    
+                    <a href="/my/orders" class="btn o_navlink_background text-reset o_not_editable" style="width: 41.6px; height: 41.6px; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 0;">
+                        <i class="fa fa-1x fa-fw fa-clipboard" style="margin: 0; font-size: 18px; line-height: 1;"></i>
+                    </a>
+
+                    
+                    <span class="badge text o_not_editable" id="status-member" style="cursor: default; font-size: 0.75rem; padding: 6px 10px; border-radius: 1rem;">
+                        
+                    </span>
+                </div>
+                    
+                    
+        <li data-name="Language Selector" class="o_header_language_selector ">
+    
+    
+        </li>
+                    
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary">Masuk</a>
+            </li>
+            
+            <li class=" o_no_autohide_item">
+            <a href="/pilih-pendaftaran" class="btn btn-outline-secondary">
+                Daftar
+            </a>
+        </li>
+                    
+        
+        
+                    
+                </ul>
+            </div>
+        
+    </nav>
+    <nav data-name="Navbar" aria-label="Mobile" class="navbar  navbar-light o_colored_level o_cc o_header_mobile d-block d-lg-none shadow-sm px-0 ">
+        
+
+        <div class="o_main_nav container flex-wrap justify-content-between">
+            
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo ">
+                
+                <img src="/iid_marketplace/static/img/logo_aipos2.png" role="img" aria-label="Logo of My Website" title="My Website" loading="lazy"/>
+            </a>
+        
+            <ul class="o_header_mobile_buttons_wrap navbar-nav flex-row align-items-center gap-2 mb-0">
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart d-none ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background_hover btn position-relative rounded-circle border-0 p-1 text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-danger position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                <li class="o_not_editable">
+                    <button class="nav-link btn me-auto p-2 o_not_editable" type="button" data-bs-toggle="offcanvas" data-bs-target="#top_menu_collapse_mobile" aria-controls="top_menu_collapse_mobile" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </li>
+            </ul>
+            <div id="top_menu_collapse_mobile" class="offcanvas offcanvas-end o_navbar_mobile">
+                <div class="offcanvas-header justify-content-end o_not_editable">
+                    <button type="button" class="nav-link btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column justify-content-between h-100 w-100">
+                    <ul class="navbar-nav">
+                        
+                        
+                        
+    <ul role="menu" class="nav navbar-nav top_menu  ">
+        
+
+                            
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Produk</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/#Kategori-Produk" class="dropdown-item ">
+            <span>E-Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/elektronik-1" class="dropdown-item ">
+            <span>Elektronik</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/topup-2" class="dropdown-item ">
+            <span>Top Up &amp; Tagihan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/handphone-tablet-3" class="dropdown-item ">
+            <span>Handphone &amp; Tablet</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/perawatan-hewan-4" class="dropdown-item ">
+            <span>Perawatan Hewan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/travel-entertainment-5" class="dropdown-item ">
+            <span>Travel &amp; Entertaiment</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="https://kleverpays.com/shop" class="nav-link ">
+            <span>Belanja</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Hubungi Kami</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Privasi dan Syarat</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/privacy-policy" class="dropdown-item ">
+            <span>Privasi dan Kebijakan</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/my/dashboard" class="nav-link ">
+            <span>Dashboard</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Invoicing</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/invoicing" class="dropdown-item ">
+            <span>Create Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="/my/invoicing" class="dropdown-item ">
+            <span>My Invoices</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+                        
+    </ul>
+                        
+        <div data-name="Text" style="display: flex; align-items: center; gap: 8px;" class="s_text_block mt-2 border-top pt-2 o_border_contrast">
+                    
+                    <a href="/my/orders" class="btn o_navlink_background text-reset o_not_editable" style="width: 41.6px; height: 41.6px; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 0;">
+                        <i class="fa fa-1x fa-fw fa-clipboard" style="margin: 0; font-size: 18px; line-height: 1;"></i>
+                    </a>
+
+                    
+                    <span class="badge text o_not_editable" id="status-member" style="cursor: default; font-size: 0.75rem; padding: 6px 10px; border-radius: 1rem;">
+                        
+                    </span>
+                </div>
+                        
+                    </ul>
+                    <ul class="navbar-nav gap-2 mt-3 w-100">
+                        
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary w-100">Masuk</a>
+            </li>
+            
+            <li class=" o_no_autohide_item">
+            <a href="/pilih-pendaftaran" class="btn btn-outline-secondary w-100">
+                Daftar
+            </a>
+        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+                        
+        
+        
+                        
+        <li data-name="Language Selector" class="o_header_language_selector ">
+    
+    
+        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </nav>
+    
+        </header>
+                <main>
+                    
+            <div class="oe_website_login_container">
+                
+                <script src="https://hcaptcha.com/1/api.js" async="async" defer="defer"></script>
+
+                
+                <script type="text/javascript">
+                    function onCaptchaSuccess() {
+                        var errorElement = document.getElementById("login_error");
+                        if (errorElement) {
+                            errorElement.remove(); // atau gunakan: errorElement.style.display = 'none';
+                        }
+                    }
+                </script>
+                <script src="https://hcaptcha.com/1/api.js" async="async" defer="defer"></script>
+        <form class="oe_login_form" role="form" method="post" onsubmit="this.action = &#39;/web/login&#39; + location.hash" action="/web/login">
+            <input type="hidden" name="csrf_token" value="250e50eef46565448d0608b04039be9e47a8a131o1788945742"/>
+            <div class="mb-3 field-login">
+                <label for="login">Email or Phone</label>
+    <input type="text" placeholder="Email or Phone" name="login" id="login" required="required" autocomplete="username" autofocus="autofocus" autocapitalize="off" class="form-control "/>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" placeholder="Password" name="password" id="login_password" required="required" autocomplete="current-password" maxlength="4096" class="form-control "/>
+      <span class="show-password-label mt-2 d-block" onclick="togglePassword(&#39;login_password&#39;, this)">Lihat Kata Sandi</span>
+            </div>
+            <div class="clearfix oe_login_buttons text-center gap-1 d-grid mb-1 pt-3">
+                <div class="form-group my-3">
+                    <div class="h-captcha" data-sitekey="820c6d4c-de06-4578-9f54-83aafc782ff4" data-callback="onCaptchaSuccess"></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Log in</button>
+                <div class="justify-content-between mt-2 d-flex small">
+                    
+                    <a href="/web/reset_password">Reset Password</a>
+                </div>
+  
+                <div class="o_login_auth"></div></div>
+                                    
+            <input type="hidden" name="redirect" value="/iid_api_manage/post_data?"/>
+      <script type="text/javascript">
+        function togglePassword(fieldId, labelElement) {
+          const input = document.getElementById(fieldId);
+          if (input.type === "password") {
+            input.type = "text";
+            labelElement.textContent = "Sembunyikan Kata Sandi";
+          } else {
+            input.type = "password";
+            labelElement.textContent = "Lihat Kata Sandi";
+          }
+        }
+      </script>
+
+      <style>
+        .show-password-label {
+          display: inline-block;
+          margin-top: 6px;
+          padding: 4px 10px;
+          font-size: 0.75rem;
+          background-color: #1349F8;
+          color: #fff;
+          border-radius: 6px;
+          cursor: pointer;
+          user-select: none;
+          transition: background-color 0.3s ease;
+        }
+        .show-password-label:hover {
+          background-color: #0e3bd0;
+        }
+        @media (max-width: 576px) {
+          .show-password-label {
+            width: 100%;
+            text-align: center;
+            padding: 6px 12px;
+            font-size: 0.8rem;
+          }
+        }
+      </style>
+        </form>
+    </div>
+            
+        
+        <div id="o_shared_blocks" class="oe_unremovable"></div>
+                </main>
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
+                    <div id="footer" class="oe_structure oe_structure_solo">
+            <section class="s_text_block pb0 pt0" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Tautan yang berguna</h5>
+                            <p class="mb-3">
+                                <a href="/">Rumah</a><br/>
+                                <a href="/#Pertanyaan-yang-sering-ditanyakan">Tentang Kami</a><br/>
+                                <a href="/shop">Produk</a><br/>
+                                Layanan<br/>
+                                <a href="/privacy-policy">Legal</a><br/>
+                                <a href="/#Mari-Bekerja-Sama">Hubungi</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-5 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Tentang Kami</h5>
+                            <p>Kresekbag adalah platform e-commerce modern yang dilengkapi dengan teknologi e-invoice untuk mengoptimalkan proses transaksi. Dengan sistem digital terintegrasi, Kresekbag menghilangkan pencatatan manual yang rawan kesalahan dan memakan waktu.</p>
+                        </div>
+                        <div id="connect" class="col-lg-4 offset-lg-1 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Terhubung dengan kami</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="fa fa-phone fa-fw me-2"></i>
+                                    <span class="o_force_ltr">
+                                        <a href="tel:021-55717377">
+                                            <font class="text-o-color-3">021-55717377</font>
+                                        </a><br/>
+                                        <i class="fa fa-1x fa-fw fa-envelope me-2"></i>
+                                        <a href="mailto:info@gpasia4u.com">info@gpasia4u.com</a>
+                                    </span>
+                                </li>
+                                <li><i class="fa fa-map-marker fa-fw me-2"></i>Jl. Puri Utama Blok H1 no.19-22
+Kel. Petir, Kec. Cipondoh, Kota Tangerang, Banten 15147</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="text-center text-muted small pt-2">
+                    V.2.6.19.08.25
+                </div>
+            </section>
+        </div>
+                </footer>
+            </div>
+                <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const statusElement = document.getElementById('status-member');
+                    if (!statusElement) return;
+
+                    fetch('/header/member')
+                        .then(response => response.json())
+                        .then(data => {
+                            const { subscription, warning_expiry, days_left } = data; // pastikan `days_left` juga dikirim dari backend
+
+                            // Default
+                            statusElement.classList.add('text-bg-success');
+                            statusElement.innerText = subscription;
+
+                            if (subscription.includes('Nonaktif')) {
+                                statusElement.classList.remove('text-bg-success');
+                                statusElement.classList.add('text-bg-secondary');
+                                statusElement.style.cursor = 'pointer';
+                                statusElement.addEventListener('click', () => {
+                                    window.location.href = '/pilihpembayaran';
+                                });
+                            }
+
+                            if (warning_expiry) {
+                                // Tambahkan efek visual: border kuning dan ikon notif kecil
+                                statusElement.style.border = '2px solid #ffc107';
+                                statusElement.style.boxShadow = '0 0 6px #ffc107';
+                                statusElement.innerText = subscription;
+
+                                // Tambahkan tanda seru kecil (notifikasi)
+                                const notif = document.createElement('span');
+                                notif.innerHTML = '<i class="fa fa-exclamation-circle text-warning"></i>';
+                                notif.style.position = 'absolute';
+                                notif.style.top = '-6px';
+                                notif.style.right = '-6px';
+                                notif.style.backgroundColor = '#fff';
+                                notif.style.borderRadius = '50%';
+                                notif.style.fontSize = '12px';
+                                notif.style.padding = '2px';
+
+                                // Buat parent-nya relative agar posisinya sesuai
+                                statusElement.style.position = 'relative';
+                                statusElement.appendChild(notif);
+
+                                // Tambahkan tooltip dengan title
+                                statusElement.title = `Membership Anda akan berakhir dalam ${days_left} hari.`;
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error fetching subscription:', error);
+                        });
+                });
+                </script>
+                
+        
+    </body>
+</html>
+
+[16:22:31] - Cron-Mini-ATM - Get cookie odoo : Post "https://kleverpays.com/web/session/authenticate": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[16:22:31] - Cron-Mini-ATM - Cookie odoo empty!
+
+[16:22:33] - Cron-Mini-ATM - Send to odoo  : <!DOCTYPE html>
+<html lang="en-US" data-website-id="1" data-main-object="ir.ui.view(2653,)" data-add2cart-redirect="1">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="generator" content="Odoo"/>
+            
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Login | My Website"/>
+        <meta property="og:site_name" content="My Website"/>
+        <meta property="og:url" content="http://192.101.1.14:7002/web/login"/>
+        <meta property="og:image" content="http://192.101.1.14:7002/web/image/website/1/logo?unique=32c096c"/>
+            
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Login | My Website"/>
+        <meta name="twitter:image" content="http://192.101.1.14:7002/web/image/website/1/logo/300x300?unique=32c096c"/>
+        
+        <link rel="canonical" href="http://kleverpays.com/reset-password/web/login"/>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        <title>Login | My Website</title>
+        <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=32c096c"/>
+        <link rel="preload" href="/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
+        <link type="text/css" rel="stylesheet" href="/web/assets/1/3d00b10/web.assets_frontend.min.css"/>
+        <script id="web.layout.odooscript" type="text/javascript">
+            var odoo = {
+                csrf_token: "451d46a0427448f84db11cb0528a9bbc7a053f03o1788945752",
+                debug: "",
+            };
+        </script>
+        <script type="text/javascript">
+            odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_public": true, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "currencies": {"12": {"symbol": "Rp", "position": "before", "digits": [69, 2]}, "1": {"symbol": "$", "position": "before", "digits": [69, 2]}}, "bundle_params": {"lang": "en_US", "website_id": 1}, "websocket_worker_version": "17.0-1", "translationURL": "/website/translations", "cache_hashes": {"translations": "452ddba79841fad29129721bdca411b64e90bfd8"}, "geoip_country_code": null, "geoip_phone_code": null, "lang_url_code": "en"};
+            if (!/(^|;\s)tz=/.test(document.cookie)) {
+                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                document.cookie = `tz=${userTZ}; path=/`;
+            }
+        </script>
+        <script type="text/javascript" defer="defer" src="/web/assets/1/9ee6232/web.assets_frontend_minimal.min.js" onerror="__odooAssetError=1"></script>
+        <script type="text/javascript" defer="defer" data-src="/web/assets/1/1a05197/web.assets_frontend_lazy.min.js" onerror="__odooAssetError=1"></script>
+        
+                    <script>
+                        
+            
+                if (!window.odoo) {
+                    window.odoo = {};
+                }
+                odoo.__session_info__ = Object.assign(odoo.__session_info__ || {}, {
+                    livechatData: {
+                        isAvailable: false,
+                        serverUrl: "http://kleverpays.com/reset-password",
+                        options: {},
+                    },
+                });
+            
+                    </script>
+        
+    </head>
+    <body>
+
+
+
+        <div id="wrapwrap" class="   ">
+                <header id="top" data-anchor="true" data-name="Header" data-extra-items-toggle-aria-label="Extra items button" class="   o_header_standard o_hoverable_dropdown" style=" ">
+                    
+    <nav data-name="Navbar" aria-label="Main" class="navbar navbar-expand-lg navbar-light o_colored_level o_cc d-none d-lg-block shadow-sm ">
+        
+
+            <div id="o_main_nav" class="o_main_nav container">
+                
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo me-4">
+                
+                <img src="/iid_marketplace/static/img/logo_aipos2.png" role="img" aria-label="Logo of My Website" title="My Website" loading="lazy"/>
+            </a>
+        
+                
+    <ul id="top_menu" role="menu" class="nav navbar-nav top_menu o_menu_loading me-auto">
+        
+
+                    
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Produk</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/#Kategori-Produk" class="dropdown-item ">
+            <span>E-Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/elektronik-1" class="dropdown-item ">
+            <span>Elektronik</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/topup-2" class="dropdown-item ">
+            <span>Top Up &amp; Tagihan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/handphone-tablet-3" class="dropdown-item ">
+            <span>Handphone &amp; Tablet</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/perawatan-hewan-4" class="dropdown-item ">
+            <span>Perawatan Hewan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/travel-entertainment-5" class="dropdown-item ">
+            <span>Travel &amp; Entertaiment</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="https://kleverpays.com/shop" class="nav-link ">
+            <span>Belanja</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Hubungi Kami</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Privasi dan Syarat</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/privacy-policy" class="dropdown-item ">
+            <span>Privasi dan Kebijakan</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/my/dashboard" class="nav-link ">
+            <span>Dashboard</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Invoicing</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/invoicing" class="dropdown-item ">
+            <span>Create Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="/my/invoicing" class="dropdown-item ">
+            <span>My Invoices</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+                
+    </ul>
+                
+                <ul class="navbar-nav align-items-center gap-2 flex-shrink-0 justify-content-end ps-3">
+                    
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart d-none ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background btn position-relative rounded-circle p-1 text-center text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-danger position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                    
+                    
+        <div data-name="Text" style="display: flex; align-items: center; gap: 8px;" class="s_text_block ">
+                    
+                    <a href="/my/orders" class="btn o_navlink_background text-reset o_not_editable" style="width: 41.6px; height: 41.6px; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 0;">
+                        <i class="fa fa-1x fa-fw fa-clipboard" style="margin: 0; font-size: 18px; line-height: 1;"></i>
+                    </a>
+
+                    
+                    <span class="badge text o_not_editable" id="status-member" style="cursor: default; font-size: 0.75rem; padding: 6px 10px; border-radius: 1rem;">
+                        
+                    </span>
+                </div>
+                    
+                    
+        <li data-name="Language Selector" class="o_header_language_selector ">
+    
+    
+        </li>
+                    
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary">Masuk</a>
+            </li>
+            
+            <li class=" o_no_autohide_item">
+            <a href="/pilih-pendaftaran" class="btn btn-outline-secondary">
+                Daftar
+            </a>
+        </li>
+                    
+        
+        
+                    
+                </ul>
+            </div>
+        
+    </nav>
+    <nav data-name="Navbar" aria-label="Mobile" class="navbar  navbar-light o_colored_level o_cc o_header_mobile d-block d-lg-none shadow-sm px-0 ">
+        
+
+        <div class="o_main_nav container flex-wrap justify-content-between">
+            
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo ">
+                
+                <img src="/iid_marketplace/static/img/logo_aipos2.png" role="img" aria-label="Logo of My Website" title="My Website" loading="lazy"/>
+            </a>
+        
+            <ul class="o_header_mobile_buttons_wrap navbar-nav flex-row align-items-center gap-2 mb-0">
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart d-none ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background_hover btn position-relative rounded-circle border-0 p-1 text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-danger position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                <li class="o_not_editable">
+                    <button class="nav-link btn me-auto p-2 o_not_editable" type="button" data-bs-toggle="offcanvas" data-bs-target="#top_menu_collapse_mobile" aria-controls="top_menu_collapse_mobile" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </li>
+            </ul>
+            <div id="top_menu_collapse_mobile" class="offcanvas offcanvas-end o_navbar_mobile">
+                <div class="offcanvas-header justify-content-end o_not_editable">
+                    <button type="button" class="nav-link btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column justify-content-between h-100 w-100">
+                    <ul class="navbar-nav">
+                        
+                        
+                        
+    <ul role="menu" class="nav navbar-nav top_menu  ">
+        
+
+                            
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Produk</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/#Kategori-Produk" class="dropdown-item ">
+            <span>E-Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/elektronik-1" class="dropdown-item ">
+            <span>Elektronik</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/topup-2" class="dropdown-item ">
+            <span>Top Up &amp; Tagihan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/handphone-tablet-3" class="dropdown-item ">
+            <span>Handphone &amp; Tablet</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/perawatan-hewan-4" class="dropdown-item ">
+            <span>Perawatan Hewan</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="https://kleverpays.com/shop/category/travel-entertainment-5" class="dropdown-item ">
+            <span>Travel &amp; Entertaiment</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="https://kleverpays.com/shop" class="nav-link ">
+            <span>Belanja</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/contactus" class="nav-link ">
+            <span>Hubungi Kami</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Privasi dan Syarat</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/privacy-policy" class="dropdown-item ">
+            <span>Privasi dan Kebijakan</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a role="menuitem" href="/my/dashboard" class="nav-link ">
+            <span>Dashboard</span>
+        </a>
+    </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Invoicing</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a role="menuitem" href="/invoicing" class="dropdown-item ">
+            <span>Create Invoice</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a role="menuitem" href="/my/invoicing" class="dropdown-item ">
+            <span>My Invoices</span>
+        </a>
+    </li>
+        </ul>
+        </li>
+                        
+    </ul>
+                        
+        <div data-name="Text" style="display: flex; align-items: center; gap: 8px;" class="s_text_block mt-2 border-top pt-2 o_border_contrast">
+                    
+                    <a href="/my/orders" class="btn o_navlink_background text-reset o_not_editable" style="width: 41.6px; height: 41.6px; display: inline-flex; justify-content: center; align-items: center; border-radius: 50%; padding: 0;">
+                        <i class="fa fa-1x fa-fw fa-clipboard" style="margin: 0; font-size: 18px; line-height: 1;"></i>
+                    </a>
+
+                    
+                    <span class="badge text o_not_editable" id="status-member" style="cursor: default; font-size: 0.75rem; padding: 6px 10px; border-radius: 1rem;">
+                        
+                    </span>
+                </div>
+                        
+                    </ul>
+                    <ul class="navbar-nav gap-2 mt-3 w-100">
+                        
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary w-100">Masuk</a>
+            </li>
+            
+            <li class=" o_no_autohide_item">
+            <a href="/pilih-pendaftaran" class="btn btn-outline-secondary w-100">
+                Daftar
+            </a>
+        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+                        
+        
+        
+                        
+        <li data-name="Language Selector" class="o_header_language_selector ">
+    
+    
+        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </nav>
+    
+        </header>
+                <main>
+                    
+            <div class="oe_website_login_container">
+                
+                <script src="https://hcaptcha.com/1/api.js" async="async" defer="defer"></script>
+
+                
+                <script type="text/javascript">
+                    function onCaptchaSuccess() {
+                        var errorElement = document.getElementById("login_error");
+                        if (errorElement) {
+                            errorElement.remove(); // atau gunakan: errorElement.style.display = 'none';
+                        }
+                    }
+                </script>
+                <script src="https://hcaptcha.com/1/api.js" async="async" defer="defer"></script>
+        <form class="oe_login_form" role="form" method="post" onsubmit="this.action = &#39;/web/login&#39; + location.hash" action="/web/login">
+            <input type="hidden" name="csrf_token" value="a3558db010c449a52ae40f6bb98488d4358a21f6o1788945751"/>
+            <div class="mb-3 field-login">
+                <label for="login">Email or Phone</label>
+    <input type="text" placeholder="Email or Phone" name="login" id="login" required="required" autocomplete="username" autofocus="autofocus" autocapitalize="off" class="form-control "/>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" placeholder="Password" name="password" id="login_password" required="required" autocomplete="current-password" maxlength="4096" class="form-control "/>
+      <span class="show-password-label mt-2 d-block" onclick="togglePassword(&#39;login_password&#39;, this)">Lihat Kata Sandi</span>
+            </div>
+            <div class="clearfix oe_login_buttons text-center gap-1 d-grid mb-1 pt-3">
+                <div class="form-group my-3">
+                    <div class="h-captcha" data-sitekey="820c6d4c-de06-4578-9f54-83aafc782ff4" data-callback="onCaptchaSuccess"></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Log in</button>
+                <div class="justify-content-between mt-2 d-flex small">
+                    
+                    <a href="/web/reset_password">Reset Password</a>
+                </div>
+  
+                <div class="o_login_auth"></div></div>
+                                    
+            <input type="hidden" name="redirect" value="/iid_api_manage/post_data?"/>
+      <script type="text/javascript">
+        function togglePassword(fieldId, labelElement) {
+          const input = document.getElementById(fieldId);
+          if (input.type === "password") {
+            input.type = "text";
+            labelElement.textContent = "Sembunyikan Kata Sandi";
+          } else {
+            input.type = "password";
+            labelElement.textContent = "Lihat Kata Sandi";
+          }
+        }
+      </script>
+
+      <style>
+        .show-password-label {
+          display: inline-block;
+          margin-top: 6px;
+          padding: 4px 10px;
+          font-size: 0.75rem;
+          background-color: #1349F8;
+          color: #fff;
+          border-radius: 6px;
+          cursor: pointer;
+          user-select: none;
+          transition: background-color 0.3s ease;
+        }
+        .show-password-label:hover {
+          background-color: #0e3bd0;
+        }
+        @media (max-width: 576px) {
+          .show-password-label {
+            width: 100%;
+            text-align: center;
+            padding: 6px 12px;
+            font-size: 0.8rem;
+          }
+        }
+      </style>
+        </form>
+    </div>
+            
+        
+        <div id="o_shared_blocks" class="oe_unremovable"></div>
+                </main>
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
+                    <div id="footer" class="oe_structure oe_structure_solo">
+            <section class="s_text_block pb0 pt0" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Tautan yang berguna</h5>
+                            <p class="mb-3">
+                                <a href="/">Rumah</a><br/>
+                                <a href="/#Pertanyaan-yang-sering-ditanyakan">Tentang Kami</a><br/>
+                                <a href="/shop">Produk</a><br/>
+                                Layanan<br/>
+                                <a href="/privacy-policy">Legal</a><br/>
+                                <a href="/#Mari-Bekerja-Sama">Hubungi</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-5 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Tentang Kami</h5>
+                            <p>Kresekbag adalah platform e-commerce modern yang dilengkapi dengan teknologi e-invoice untuk mengoptimalkan proses transaksi. Dengan sistem digital terintegrasi, Kresekbag menghilangkan pencatatan manual yang rawan kesalahan dan memakan waktu.</p>
+                        </div>
+                        <div id="connect" class="col-lg-4 offset-lg-1 pt24 pb24 o_colored_level">
+                            <h5 class="mb-3">Terhubung dengan kami</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="fa fa-phone fa-fw me-2"></i>
+                                    <span class="o_force_ltr">
+                                        <a href="tel:021-55717377">
+                                            <font class="text-o-color-3">021-55717377</font>
+                                        </a><br/>
+                                        <i class="fa fa-1x fa-fw fa-envelope me-2"></i>
+                                        <a href="mailto:info@gpasia4u.com">info@gpasia4u.com</a>
+                                    </span>
+                                </li>
+                                <li><i class="fa fa-map-marker fa-fw me-2"></i>Jl. Puri Utama Blok H1 no.19-22
+Kel. Petir, Kec. Cipondoh, Kota Tangerang, Banten 15147</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="text-center text-muted small pt-2">
+                    V.2.6.19.08.25
+                </div>
+            </section>
+        </div>
+                </footer>
+            </div>
+                <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const statusElement = document.getElementById('status-member');
+                    if (!statusElement) return;
+
+                    fetch('/header/member')
+                        .then(response => response.json())
+                        .then(data => {
+                            const { subscription, warning_expiry, days_left } = data; // pastikan `days_left` juga dikirim dari backend
+
+                            // Default
+                            statusElement.classList.add('text-bg-success');
+                            statusElement.innerText = subscription;
+
+                            if (subscription.includes('Nonaktif')) {
+                                statusElement.classList.remove('text-bg-success');
+                                statusElement.classList.add('text-bg-secondary');
+                                statusElement.style.cursor = 'pointer';
+                                statusElement.addEventListener('click', () => {
+                                    window.location.href = '/pilihpembayaran';
+                                });
+                            }
+
+                            if (warning_expiry) {
+                                // Tambahkan efek visual: border kuning dan ikon notif kecil
+                                statusElement.style.border = '2px solid #ffc107';
+                                statusElement.style.boxShadow = '0 0 6px #ffc107';
+                                statusElement.innerText = subscription;
+
+                                // Tambahkan tanda seru kecil (notifikasi)
+                                const notif = document.createElement('span');
+                                notif.innerHTML = '<i class="fa fa-exclamation-circle text-warning"></i>';
+                                notif.style.position = 'absolute';
+                                notif.style.top = '-6px';
+                                notif.style.right = '-6px';
+                                notif.style.backgroundColor = '#fff';
+                                notif.style.borderRadius = '50%';
+                                notif.style.fontSize = '12px';
+                                notif.style.padding = '2px';
+
+                                // Buat parent-nya relative agar posisinya sesuai
+                                statusElement.style.position = 'relative';
+                                statusElement.appendChild(notif);
+
+                                // Tambahkan tooltip dengan title
+                                statusElement.title = `Membership Anda akan berakhir dalam ${days_left} hari.`;
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error fetching subscription:', error);
+                        });
+                });
+                </script>
+                
+        
+    </body>
+</html>
+
