@@ -24,12 +24,7 @@ import (
 
 var secretKey = "Yk0XV9lmTg2k53klhP3cxp5JmK8VewcF"
 
-var allowedHeaders = map[string]bool{
-	"host-name":      true,
-	"host-qr":        true,
-	"host-code":      true,
-	"merchant-group": true,
-}
+var allowedHeaders = make(map[string]bool)
 
 func (s *service) Actions(c *gin.Context) {
 	responseErr := types.ResponseError{}
@@ -161,6 +156,19 @@ func (s *service) Actions(c *gin.Context) {
 			h.Respond(c, responseErr, http.StatusBadRequest)
 			return
 		}
+	}
+
+	dataHeader, err := s.jackdbParamService.AllowedHeadersGetHeaderName(c)
+	if err != nil {
+		h.ErrorLog("Get header name: " + err.Error())
+		responseErr.Status = "SERVER_FAILED"
+		responseErr.Message = "Service Malfunction"
+		h.Respond(c, responseErr, http.StatusInternalServerError)
+		return
+	}
+
+	for _, headerName := range dataHeader {
+		allowedHeaders[headerName.HeaderName] = true
 	}
 
 	md := metadata.MD{}

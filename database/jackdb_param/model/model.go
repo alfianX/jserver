@@ -65,3 +65,12 @@ type CodeOdoo struct {
 func (CodeOdoo) TableName() string {
 	return "code_odoo"
 }
+
+type AllowedHeader struct {
+	ID         int64  `json:"id"`
+	HeaderName string `json:"header_name"`
+}
+
+func (AllowedHeader) TableName() string {
+	return "allowed_header"
+}

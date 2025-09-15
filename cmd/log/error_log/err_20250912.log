@@ -1,0 +1,4 @@
+[09:18:52] - Mini-Atm - Send to host : dial tcp 127.0.0.1:7005: connectex: No connection could be made because the target machine actively refused it.
+
+[09:18:52] - microservice failed: General Error [H0]
+
