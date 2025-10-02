@@ -26,14 +26,15 @@ func NewCronJob(cnf config.Config, db, dbParam *gorm.DB) CronService {
 	}
 }
 
-func (cs *CronService) CronJob() {
+func (cs *CronService) CronJob(ctx context.Context) {
 	c := cron.New()
 
 	c.AddFunc("@every 10s", func() {
-		go cs.jackdbService.SendToOdoo(context.Background(), cs.cnf, cs.jackdbParamService)
+		go cs.jackdbService.SendToOdoo(ctx, cs.cnf, cs.jackdbParamService)
 	})
 
 	c.Start()
 
-	select {}
+	<-ctx.Done()
+	c.Stop()
 }

@@ -127,11 +127,13 @@ func (s *Service) Transaction(ctx context.Context, req *card_payment.Request) (*
 		trxDateRes, _ = time.ParseInLocation("2006-01-02 15:04:05", trxDateStr, loc)
 	}
 	responseCode, _ := isoMsg.GetString(39)
+	approvalCode, _ := isoMsg.GetString(38)
 	rrn, _ := isoMsg.GetString(37)
 
 	err = s.jackdbService.CardPaymentUpdateResponse(ctx, &servicedb.CardPaymentResParam{
 		ID:                      idTrx,
 		ResponseCode:            responseCode,
+		ApprovalCode:            approvalCode,
 		TransactionDateResponse: trxDateRes,
 		Rrn:                     rrn,
 	})

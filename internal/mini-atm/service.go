@@ -59,7 +59,11 @@ func NewService() (*Service, error) {
 }
 
 func (s *Service) Run(ctx context.Context) error {
-	go s.cron.CronJob()
+	cronCtx, cancelCron := context.WithCancel(context.Background())
+	defer cancelCron()
+
+	go s.cron.CronJob(cronCtx)
+
 	lis, err := net.Listen("tcp", fmt.Sprintf("127.0.0.1:%d", s.config.CnfLoc.ListenPort))
 	if err != nil {
 		return fmt.Errorf("failed to listen: %w", err)
@@ -87,9 +91,12 @@ func (s *Service) Run(ctx context.Context) error {
 
 	select {
 	case err := <-serverErrors:
+		cancelCron()
 		return fmt.Errorf("error: starting REST API server: %w", err)
 	case <-stopServer:
 		s.logger.Warn("server received STOP signal")
+
+		cancelCron()
 
 		grpcServer.GracefulStop()
 

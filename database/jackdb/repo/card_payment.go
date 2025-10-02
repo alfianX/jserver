@@ -33,6 +33,7 @@ func (r Repo) CardPaymentSave(ctx context.Context, data *model.CardPayment) (int
 func (r Repo) CardPaymentUpdateResponse(ctx context.Context, data *model.CardPayment) error {
 	result := r.Db.WithContext(ctx).Model(&model.CardPayment{ID: data.ID}).Updates(&model.CardPayment{
 		ResponseCode:            data.ResponseCode,
+		ApprovalCode:            data.ApprovalCode,
 		TransactionDateResponse: data.TransactionDateResponse,
 		Rrn:                     data.Rrn,
 		UpdatedAt:               data.UpdatedAt,
@@ -44,7 +45,7 @@ func (r Repo) CardPaymentUpdateResponse(ctx context.Context, data *model.CardPay
 func (r Repo) CardPaymentGetDataForOdoo(ctx context.Context, tx *gorm.DB) ([]model.CardPayment, error) {
 	var data []model.CardPayment
 	err := tx.WithContext(ctx).Clauses(clause.Locking{Strength: "UPDATE"}).
-		Where("mti = ? AND response_code IS NOT NULL AND flag_odoo = ?", "0200", 0).
+		Where("trx_type = ? AND mti = ? AND response_code = ? AND flag_odo = ?", "SALE", "0200", "00", 0).
 		Order("created_at desc").
 		Limit(4).
 		Find(&data).Error
@@ -54,7 +55,7 @@ func (r Repo) CardPaymentGetDataForOdoo(ctx context.Context, tx *gorm.DB) ([]mod
 
 func (r Repo) CardPaymentUpdateFlagOdoo(ctx context.Context, tx *gorm.DB, data *model.CardPayment) error {
 	result := tx.WithContext(ctx).Model(&model.CardPayment{ID: data.ID}).Updates(&model.CardPayment{
-		FlagOdoo: data.FlagOdoo,
+		FlagOdo: data.FlagOdo,
 	})
 
 	return result.Error

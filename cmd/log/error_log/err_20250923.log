@@ -1,0 +1,14 @@
+[14:09:01] - Card-Payment - Send to host : read tcp 192.168.68.150:54373->103.105.68.75:5600: wsarecv: An existing connection was forcibly closed by the remote host.
+
+[14:09:01] - microservice failed: General Error [H0]
+
+[14:10:32] - Card-Payment - Send to host : read tcp 192.168.68.150:54469->103.105.68.75:5600: wsarecv: An existing connection was forcibly closed by the remote host.
+
+[14:10:32] - microservice failed: General Error [H0]
+
+[14:12:02] - Card-Payment - Send to host : read tcp 192.168.68.150:54573->103.105.68.75:5600: wsarecv: An existing connection was forcibly closed by the remote host.
+
+[14:12:03] - microservice failed: General Error [H0]
+
+[14:36:45] - microservice failed: service cardPayment.CardPaymentService not found: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:8793: connectex: No connection could be made because the target machine actively refused it."
+

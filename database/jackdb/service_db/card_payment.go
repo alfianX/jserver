@@ -33,6 +33,7 @@ type CardPaymentReqParam struct {
 type CardPaymentResParam struct {
 	ID                      int64
 	ResponseCode            string
+	ApprovalCode            string
 	TransactionDateResponse time.Time
 	Rrn                     string
 }
@@ -68,6 +69,7 @@ func (s Service) CardPaymentUpdateResponse(ctx context.Context, param *CardPayme
 	data := model.CardPayment{
 		ID:                      param.ID,
 		ResponseCode:            param.ResponseCode,
+		ApprovalCode:            param.ApprovalCode,
 		TransactionDateResponse: param.TransactionDateResponse,
 		Rrn:                     param.Rrn,
 		UpdatedAt:               time.Now(),
@@ -79,17 +81,15 @@ func (s Service) CardPaymentUpdateResponse(ctx context.Context, param *CardPayme
 }
 
 func (s Service) CardPaymentSendToOdoo(ctx context.Context, cfg config.Config, jackdbParamService servicedb_param.Service) {
-	ok := true
-	tx := s.repo.Db.Begin()
-	data, err := s.repo.CardPaymentGetDataForOdoo(ctx, tx)
+	// ok := true
+	data, err := s.repo.CardPaymentGetDataForOdoo(ctx, s.repo.Db)
 	if err != nil {
-		tx.Rollback()
 		fmt.Println("Cron-Card-Payment - Get data in db for odoo : " + err.Error())
 		helper.ErrorLog("Cron-Card-Payment - Get data in db for odoo : " + err.Error())
+		return
 	}
 
 	if len(data) == 0 {
-		tx.Rollback()
 		return
 	}
 
@@ -105,17 +105,17 @@ func (s Service) CardPaymentSendToOdoo(ctx context.Context, cfg config.Config, j
 		payload.Mid = row.Mid
 		payload.ExternalStoreId = row.Mid + "." + row.Tid
 		payload.Pan = row.Pan
-		payload.Amount = row.Amount
+		payload.Amount = row.Amount / 100
 		payload.PaymentDate = row.TransactionDate.UTC().Format(time.RFC3339)
 		payload.Nii = row.Nii
 		payload.De63 = row.De63
 		payload.ResponseCode = row.ResponseCode
+		payload.ApprovalCode = row.ApprovalCode
 		payload.TransactionDateResponse = row.TransactionDateResponse.UTC().Format(time.RFC3339)
 		payload.PaymentReferenceNo = row.Rrn
 
 		jsonBytes, err := json.Marshal(payload)
 		if err != nil {
-			tx.Rollback()
 			fmt.Println("Cron-Card-Payment - Marshal json odoo : " + err.Error())
 			helper.ErrorLog("Cron-Card-Payment - Marshal json odoo : " + err.Error())
 			break
@@ -123,55 +123,46 @@ func (s Service) CardPaymentSendToOdoo(ctx context.Context, cfg config.Config, j
 
 		jsonString := string(jsonBytes)
 
+		fmt.Println("haloo: " + jsonString)
+
 		// code := "031"
 		// name := "Arthajasa PG Debits"
 
 		name, code, err := jackdbParamService.CodeOdooGetName(ctx, row.Host, row.TrxType)
 		if err != nil {
-			tx.Rollback()
 			fmt.Println("Cron-Card-Payment - Get code odoo : " + err.Error())
 			helper.ErrorLog("Cron-Card-Payment - Get code odoo : " + err.Error())
-			ok = false
+			break
 		}
 
 		cookie, err := helper.AuthenticateOdoo(cfg.CnfGlob.OdooURL + "/web/session/authenticate")
 		if err != nil {
-			tx.Rollback()
 			fmt.Println("Cron-Card-Payment - Get cookie odoo : " + err.Error())
 			helper.ErrorLog("Cron-Card-Payment - Get cookie odoo : " + err.Error())
-			ok = false
+			break
 		}
 
 		if cookie == "" {
-			tx.Rollback()
 			fmt.Println("Cron-Card-Payment - Cookie odoo empty!")
 			helper.ErrorLog("Cron-Card-Payment - Cookie odoo empty!")
-			ok = false
+			break
 		}
 
 		err = helper.SendToOdoo(cfg.CnfGlob.OdooURL+"/iid_api_manage/post_data", name, cookie, "Transaction", code, "Arthajasa", jsonString)
 		if err != nil {
-			tx.Rollback()
 			fmt.Println("Cron-Card-Payment - Send to odoo : " + err.Error())
 			helper.ErrorLog("Cron-Card-Payment - Send to odoo  : " + err.Error())
-			ok = false
+			break
 		}
 
-		if ok {
-			err = s.repo.CardPaymentUpdateFlagOdoo(ctx, tx, &model.CardPayment{
-				ID:       row.ID,
-				FlagOdoo: 1,
-			})
-			if err != nil {
-				tx.Rollback()
-				fmt.Println("Cron-Card-Payment - Update flag odoo : " + err.Error())
-				helper.ErrorLog("Cron-Card-Payment - Update flag odoo  : " + err.Error())
-				break
-			}
-
-			tx.Commit()
-		} else {
-			tx.Rollback()
+		err = s.repo.CardPaymentUpdateFlagOdoo(ctx, s.repo.Db, &model.CardPayment{
+			ID:      row.ID,
+			FlagOdo: 1,
+		})
+		if err != nil {
+			fmt.Println("Cron-Card-Payment - Update flag odoo : " + err.Error())
+			helper.ErrorLog("Cron-Card-Payment - Update flag odoo  : " + err.Error())
+			break
 		}
 	}
 }

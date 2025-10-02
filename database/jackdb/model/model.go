@@ -88,10 +88,11 @@ type CardPayment struct {
 	Nii                     string    `json:"nii"`
 	De63                    string    `json:"de63"`
 	ResponseCode            string    `json:"response_code"`
+	ApprovalCode            string    `json:"approval_code"`
 	TransactionDateResponse time.Time `gorm:"autoCreateTime:false" json:"transaction_date_response"`
 	Rrn                     string    `json:"rrn"`
 	Host                    string    `json:"host"`
-	FlagOdoo                int64     `json:"flag_odoo"`
+	FlagOdo                 int64     `json:"flag_odo"`
 	CreatedAt               time.Time `gorm:"autoCreateTime:false" json:"created_at"`
 	UpdatedAt               time.Time `gorm:"autoUpdateTime:false" json:"updated_at"`
 }

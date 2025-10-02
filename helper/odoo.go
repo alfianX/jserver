@@ -91,7 +91,7 @@ func SendToOdoo(hostAddress, name, session_id, categ, trxType, hostName, data st
 	send.Data = data
 
 	reqOdoo, _ := json.Marshal(send)
-	fmt.Println(string(reqOdoo))
+	fmt.Println("request to odoo" + string(reqOdoo))
 
 	exReqOdoo, err := http.NewRequest("POST", hostAddress, bytes.NewReader(reqOdoo))
 	if err != nil {
@@ -125,7 +125,7 @@ func SendToOdoo(hostAddress, name, session_id, categ, trxType, hostName, data st
 
 	responseByte, _ := io.ReadAll(respOdoo.Body)
 
-	fmt.Println(string(responseByte))
+	fmt.Println("response from odoo: " + string(responseByte))
 
 	if strings.Contains(string(responseByte), "error") || strings.Contains(string(responseByte), "ERROR") || strings.Contains(string(responseByte), "Error") {
 		return fmt.Errorf("%s", string(responseByte))

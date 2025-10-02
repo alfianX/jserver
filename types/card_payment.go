@@ -15,6 +15,7 @@ type CardPaymentOdoo struct {
 	Nii                     string `json:"nii"`
 	De63                    string `json:"de63"`
 	ResponseCode            string `json:"response_code"`
+	ApprovalCode            string `json:"approval_code"`
 	TransactionDateResponse string `json:"transaction_date_response"`
 	PaymentReferenceNo      string `json:"paymentReferenceNo"`
 }
