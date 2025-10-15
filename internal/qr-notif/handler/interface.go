@@ -10,15 +10,16 @@ import (
 
 type Service struct {
 	qr_notif.UnimplementedQrNotifServiceServer
-	config        config.Config
-	cookieOdoo    string
+	config config.Config
+	// cookieOdoo    string
 	jackdbService servicedb.Service
 }
 
-func NewHandler(cookieOdoo string, cnf config.Config, db *gorm.DB) *Service {
+// func NewHandler(cookieOdoo string, cnf config.Config, db *gorm.DB) *Service {
+func NewHandler(cnf config.Config, db *gorm.DB) *Service {
 	return &Service{
-		config:        cnf,
-		cookieOdoo:    cookieOdoo,
+		config: cnf,
+		// cookieOdoo:    cookieOdoo,
 		jackdbService: servicedb.NewService(repo.NewRepo(db)),
 	}
 }

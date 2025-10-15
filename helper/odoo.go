@@ -167,8 +167,17 @@ func CheckCodeTrxJournal(code, hostAddress string) (string, error) {
 
 	exReqOdoo.Header.Add("Content-Type", "application/json")
 
+	tr := &http.Transport{
+		// Konfigurasi TLS
+		TLSClientConfig: &tls.Config{
+			// Ini adalah baris kunci untuk mematikan verifikasi sertifikat
+			InsecureSkipVerify: true,
+		},
+	}
+
 	clientOdoo := &http.Client{
-		Timeout: 60 * time.Second,
+		Timeout:   60 * time.Second,
+		Transport: tr,
 	}
 	respOdoo, err := clientOdoo.Do(exReqOdoo)
 	if err != nil {
@@ -227,8 +236,17 @@ func CheckNameTrxJournal(name, hostAddress string) (string, error) {
 
 	exReqOdoo.Header.Add("Content-Type", "application/json")
 
+	tr := &http.Transport{
+		// Konfigurasi TLS
+		TLSClientConfig: &tls.Config{
+			// Ini adalah baris kunci untuk mematikan verifikasi sertifikat
+			InsecureSkipVerify: true,
+		},
+	}
+
 	clientOdoo := &http.Client{
-		Timeout: 60 * time.Second,
+		Timeout:   60 * time.Second,
+		Transport: tr,
 	}
 	respOdoo, err := clientOdoo.Do(exReqOdoo)
 	if err != nil {

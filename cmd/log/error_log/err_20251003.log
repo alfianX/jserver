@@ -1,0 +1,34 @@
+[13:33:29] - QR-Notif - Check code trx journal : Get "https://kleverpays.com/iid_api_manage": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[13:33:34] - microservice failed: Service malfunction, code : O1 - id:130
+
+[13:36:12] - QR-Notif - Check code trx journal : Get "https://kleverpays.com/iid_api_manage": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[13:36:14] - microservice failed: Service malfunction, code : O1 - id:130
+
+[13:36:54] - QR-Notif - Check code trx journal : Get "https://kleverpays.com/iid_api_manage": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[13:36:56] - microservice failed: Service malfunction, code : O1 - id:130
+
+[13:38:11] - QR-Notif - Check code trx journal : Get "https://kleverpays.com/iid_api_manage": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[13:38:13] - microservice failed: Service malfunction, code : O1
+
+[13:38:47] - QR-Notif - Check code trx journal : Get "https://kleverpays.com/iid_api_manage": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[13:38:49] - microservice failed: Service malfunction, code : O1 - id:130
+
+[13:43:11] - QR-Notif - Check code trx journal : Get "https://kleverpays.com/iid_api_manage": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[13:43:11] - microservice failed: Service malfunction, code : O1 - id:130
+
+[13:43:19] - microservice failed: rpc error: code = Internal desc = Service malfunction, code : O1 - id:130
+
+[13:44:01] - QR-Notif - Check code trx journal : Get "https://kleverpays.com/iid_api_manage": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[13:44:01] - microservice failed: Service malfunction, code : O1 - id:130
+
+[13:53:22] - QR-Notif - Check code trx journal : Get "https://kleverpays.com/iid_api_manage": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: 
+
+[13:54:04] - microservice failed: Service malfunction, code : O1 - id:130
+

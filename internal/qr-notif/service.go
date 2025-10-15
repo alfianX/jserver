@@ -2,7 +2,6 @@ package qrnotif
 
 import (
 	"context"
-	"errors"
 	"fmt"
 	"net"
 	"os"
@@ -12,7 +11,6 @@ import (
 
 	"github.com/alfianX/jserver/config"
 	"github.com/alfianX/jserver/database"
-	h "github.com/alfianX/jserver/helper"
 	"github.com/alfianX/jserver/internal"
 	"github.com/alfianX/jserver/internal/qr-notif/handler"
 	qr_notif "github.com/alfianX/jserver/proto/qr-notif"
@@ -40,16 +38,17 @@ func NewService() (*Service, error) {
 
 	log := internal.NewLogger()
 
-	cookie, err := h.AuthenticateOdoo(cnf.CnfGlob.OdooURL + "/web/session/authenticate")
-	if err != nil {
-		return nil, err
-	}
+	// cookie, err := h.AuthenticateOdoo(cnf.CnfGlob.OdooURL + "/web/session/authenticate")
+	// if err != nil {
+	// 	return nil, err
+	// }
 
-	if cookie == "" {
-		return nil, errors.New("odoo fail login")
-	}
+	// if cookie == "" {
+	// 	return nil, errors.New("odoo fail login")
+	// }
 
-	svcHandler := handler.NewHandler(cookie, cnf, db)
+	// svcHandler := handler.NewHandler(cookie, cnf, db)
+	svcHandler := handler.NewHandler(cnf, db)
 
 	s := Service{
 		logger:     log,

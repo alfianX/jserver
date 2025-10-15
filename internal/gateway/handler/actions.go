@@ -11,6 +11,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"strconv"
 	"strings"
 	"time"
 
@@ -198,8 +199,24 @@ func (s *service) Actions(c *gin.Context) {
 			httpCode := mapGrpcCodeToHTTP(st.Code())
 			responseErr.Status = "SERVER_FAILED"
 			responseErr.Message = st.Message()
-			h.Respond(c, responseErr, httpCode)
-			return
+			lenMsg := len(st.Message())
+			index := strings.Index(st.Message(), "- id:")
+			if index != -1 {
+				fmt.Println(st.Message()[index+5 : lenMsg])
+				idStr := st.Message()[index+5 : lenMsg]
+				id, err := strconv.Atoi(idStr)
+				if err != nil {
+					responseErr.Message = err.Error()
+					h.Respond(c, responseErr, httpCode)
+					return
+				}
+
+				h.Respond(c, gin.H{"id": id, "status": "SERVER_FAILED", "message": st.Message()[:index]}, httpCode)
+				return
+			} else {
+				h.Respond(c, responseErr, httpCode)
+				return
+			}
 		}
 		h.ErrorLog("microservice failed: " + err.Error())
 		responseErr.Status = "SERVER_FAILED"
