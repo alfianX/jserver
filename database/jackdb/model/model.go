@@ -92,6 +92,7 @@ type CardPayment struct {
 	TransactionDateResponse time.Time `gorm:"autoCreateTime:false" json:"transaction_date_response"`
 	Rrn                     string    `json:"rrn"`
 	Host                    string    `json:"host"`
+	FlagSuccess             int64     `json:"flag_success"`
 	FlagOdo                 int64     `json:"flag_odo"`
 	CreatedAt               time.Time `gorm:"autoCreateTime:false" json:"created_at"`
 	UpdatedAt               time.Time `gorm:"autoUpdateTime:false" json:"updated_at"`

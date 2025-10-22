@@ -86,6 +86,7 @@ type Response struct {
 	Status        string                 `protobuf:"bytes,1,opt,name=status,proto3" json:"status,omitempty"`
 	Message       string                 `protobuf:"bytes,2,opt,name=message,proto3" json:"message,omitempty"`
 	Iso           string                 `protobuf:"bytes,3,opt,name=iso,proto3" json:"iso,omitempty"`
+	Id            int64                  `protobuf:"varint,4,opt,name=id,proto3" json:"id,omitempty"`
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
 }
@@ -141,6 +142,117 @@ func (x *Response) GetIso() string {
 	return ""
 }
 
+func (x *Response) GetId() int64 {
+	if x != nil {
+		return x.Id
+	}
+	return 0
+}
+
+type RequestStatus struct {
+	state         protoimpl.MessageState `protogen:"open.v1"`
+	SerialNumber  string                 `protobuf:"bytes,1,opt,name=serialNumber,proto3" json:"serialNumber,omitempty"`
+	Id            int64                  `protobuf:"varint,2,opt,name=id,proto3" json:"id,omitempty"`
+	unknownFields protoimpl.UnknownFields
+	sizeCache     protoimpl.SizeCache
+}
+
+func (x *RequestStatus) Reset() {
+	*x = RequestStatus{}
+	mi := &file_proto_card_payment_cardPayment_proto_msgTypes[2]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *RequestStatus) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*RequestStatus) ProtoMessage() {}
+
+func (x *RequestStatus) ProtoReflect() protoreflect.Message {
+	mi := &file_proto_card_payment_cardPayment_proto_msgTypes[2]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use RequestStatus.ProtoReflect.Descriptor instead.
+func (*RequestStatus) Descriptor() ([]byte, []int) {
+	return file_proto_card_payment_cardPayment_proto_rawDescGZIP(), []int{2}
+}
+
+func (x *RequestStatus) GetSerialNumber() string {
+	if x != nil {
+		return x.SerialNumber
+	}
+	return ""
+}
+
+func (x *RequestStatus) GetId() int64 {
+	if x != nil {
+		return x.Id
+	}
+	return 0
+}
+
+type ResponseStatus struct {
+	state         protoimpl.MessageState `protogen:"open.v1"`
+	Status        string                 `protobuf:"bytes,1,opt,name=status,proto3" json:"status,omitempty"`
+	Message       string                 `protobuf:"bytes,2,opt,name=message,proto3" json:"message,omitempty"`
+	unknownFields protoimpl.UnknownFields
+	sizeCache     protoimpl.SizeCache
+}
+
+func (x *ResponseStatus) Reset() {
+	*x = ResponseStatus{}
+	mi := &file_proto_card_payment_cardPayment_proto_msgTypes[3]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *ResponseStatus) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*ResponseStatus) ProtoMessage() {}
+
+func (x *ResponseStatus) ProtoReflect() protoreflect.Message {
+	mi := &file_proto_card_payment_cardPayment_proto_msgTypes[3]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use ResponseStatus.ProtoReflect.Descriptor instead.
+func (*ResponseStatus) Descriptor() ([]byte, []int) {
+	return file_proto_card_payment_cardPayment_proto_rawDescGZIP(), []int{3}
+}
+
+func (x *ResponseStatus) GetStatus() string {
+	if x != nil {
+		return x.Status
+	}
+	return ""
+}
+
+func (x *ResponseStatus) GetMessage() string {
+	if x != nil {
+		return x.Message
+	}
+	return ""
+}
+
 var File_proto_card_payment_cardPayment_proto protoreflect.FileDescriptor
 
 const file_proto_card_payment_cardPayment_proto_rawDesc = "" +
@@ -149,13 +261,21 @@ const file_proto_card_payment_cardPayment_proto_rawDesc = "" +
 	"\aRequest\x12\"\n" +
 	"\fserialNumber\x18\x01 \x01(\tR\fserialNumber\x12(\n" +
 	"\x0ftransactionType\x18\x02 \x01(\tR\x0ftransactionType\x12\x10\n" +
-	"\x03iso\x18\x03 \x01(\tR\x03iso\"N\n" +
+	"\x03iso\x18\x03 \x01(\tR\x03iso\"^\n" +
 	"\bResponse\x12\x16\n" +
 	"\x06status\x18\x01 \x01(\tR\x06status\x12\x18\n" +
 	"\amessage\x18\x02 \x01(\tR\amessage\x12\x10\n" +
-	"\x03iso\x18\x03 \x01(\tR\x03iso2P\n" +
+	"\x03iso\x18\x03 \x01(\tR\x03iso\x12\x0e\n" +
+	"\x02id\x18\x04 \x01(\x03R\x02id\"C\n" +
+	"\rRequestStatus\x12\"\n" +
+	"\fserialNumber\x18\x01 \x01(\tR\fserialNumber\x12\x0e\n" +
+	"\x02id\x18\x02 \x01(\x03R\x02id\"B\n" +
+	"\x0eResponseStatus\x12\x16\n" +
+	"\x06status\x18\x01 \x01(\tR\x06status\x12\x18\n" +
+	"\amessage\x18\x02 \x01(\tR\amessage2\x93\x01\n" +
 	"\x12CardPaymentService\x12:\n" +
-	"\vTransaction\x12\x14.cardPayment.Request\x1a\x15.cardPayment.ResponseB\x16Z\x14./proto/card-paymentb\x06proto3"
+	"\vTransaction\x12\x14.cardPayment.Request\x1a\x15.cardPayment.Response\x12A\n" +
+	"\x06Status\x12\x1a.cardPayment.RequestStatus\x1a\x1b.cardPayment.ResponseStatusB\x16Z\x14./proto/card-paymentb\x06proto3"
 
 var (
 	file_proto_card_payment_cardPayment_proto_rawDescOnce sync.Once
@@ -169,16 +289,20 @@ func file_proto_card_payment_cardPayment_proto_rawDescGZIP() []byte {
 	return file_proto_card_payment_cardPayment_proto_rawDescData
 }
 
-var file_proto_card_payment_cardPayment_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
+var file_proto_card_payment_cardPayment_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
 var file_proto_card_payment_cardPayment_proto_goTypes = []any{
-	(*Request)(nil),  // 0: cardPayment.Request
-	(*Response)(nil), // 1: cardPayment.Response
+	(*Request)(nil),        // 0: cardPayment.Request
+	(*Response)(nil),       // 1: cardPayment.Response
+	(*RequestStatus)(nil),  // 2: cardPayment.RequestStatus
+	(*ResponseStatus)(nil), // 3: cardPayment.ResponseStatus
 }
 var file_proto_card_payment_cardPayment_proto_depIdxs = []int32{
 	0, // 0: cardPayment.CardPaymentService.Transaction:input_type -> cardPayment.Request
-	1, // 1: cardPayment.CardPaymentService.Transaction:output_type -> cardPayment.Response
-	1, // [1:2] is the sub-list for method output_type
-	0, // [0:1] is the sub-list for method input_type
+	2, // 1: cardPayment.CardPaymentService.Status:input_type -> cardPayment.RequestStatus
+	1, // 2: cardPayment.CardPaymentService.Transaction:output_type -> cardPayment.Response
+	3, // 3: cardPayment.CardPaymentService.Status:output_type -> cardPayment.ResponseStatus
+	2, // [2:4] is the sub-list for method output_type
+	0, // [0:2] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
 	0, // [0:0] is the sub-list for extension extendee
 	0, // [0:0] is the sub-list for field type_name
@@ -195,7 +319,7 @@ func file_proto_card_payment_cardPayment_proto_init() {
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
 			RawDescriptor: unsafe.Slice(unsafe.StringData(file_proto_card_payment_cardPayment_proto_rawDesc), len(file_proto_card_payment_cardPayment_proto_rawDesc)),
 			NumEnums:      0,
-			NumMessages:   2,
+			NumMessages:   4,
 			NumExtensions: 0,
 			NumServices:   1,
 		},

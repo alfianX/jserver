@@ -80,6 +80,12 @@ func (s Service) CardPaymentUpdateResponse(ctx context.Context, param *CardPayme
 	return err
 }
 
+func (s Service) CardPaymentUpdateFlagSuccess(ctx context.Context, id int64) error {
+	err := s.repo.CardPaymentUpdateFlagSuccess(ctx, id)
+
+	return err
+}
+
 func (s Service) CardPaymentSendToOdoo(ctx context.Context, cfg config.Config, jackdbParamService servicedb_param.Service) {
 	// ok := true
 	data, err := s.repo.CardPaymentGetDataForOdoo(ctx, s.repo.Db)

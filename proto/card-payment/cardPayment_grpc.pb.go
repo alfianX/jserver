@@ -20,6 +20,7 @@ const _ = grpc.SupportPackageIsVersion9
 
 const (
 	CardPaymentService_Transaction_FullMethodName = "/cardPayment.CardPaymentService/Transaction"
+	CardPaymentService_Status_FullMethodName      = "/cardPayment.CardPaymentService/Status"
 )
 
 // CardPaymentServiceClient is the client API for CardPaymentService service.
@@ -27,6 +28,7 @@ const (
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
 type CardPaymentServiceClient interface {
 	Transaction(ctx context.Context, in *Request, opts ...grpc.CallOption) (*Response, error)
+	Status(ctx context.Context, in *RequestStatus, opts ...grpc.CallOption) (*ResponseStatus, error)
 }
 
 type cardPaymentServiceClient struct {
@@ -47,11 +49,22 @@ func (c *cardPaymentServiceClient) Transaction(ctx context.Context, in *Request,
 	return out, nil
 }
 
+func (c *cardPaymentServiceClient) Status(ctx context.Context, in *RequestStatus, opts ...grpc.CallOption) (*ResponseStatus, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(ResponseStatus)
+	err := c.cc.Invoke(ctx, CardPaymentService_Status_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
 // CardPaymentServiceServer is the server API for CardPaymentService service.
 // All implementations must embed UnimplementedCardPaymentServiceServer
 // for forward compatibility.
 type CardPaymentServiceServer interface {
 	Transaction(context.Context, *Request) (*Response, error)
+	Status(context.Context, *RequestStatus) (*ResponseStatus, error)
 	mustEmbedUnimplementedCardPaymentServiceServer()
 }
 
@@ -64,6 +77,9 @@ type UnimplementedCardPaymentServiceServer struct{}
 
 func (UnimplementedCardPaymentServiceServer) Transaction(context.Context, *Request) (*Response, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method Transaction not implemented")
+}
+func (UnimplementedCardPaymentServiceServer) Status(context.Context, *RequestStatus) (*ResponseStatus, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method Status not implemented")
 }
 func (UnimplementedCardPaymentServiceServer) mustEmbedUnimplementedCardPaymentServiceServer() {}
 func (UnimplementedCardPaymentServiceServer) testEmbeddedByValue()                            {}
@@ -104,6 +120,24 @@ func _CardPaymentService_Transaction_Handler(srv interface{}, ctx context.Contex
 	return interceptor(ctx, in, info, handler)
 }
 
+func _CardPaymentService_Status_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(RequestStatus)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(CardPaymentServiceServer).Status(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: CardPaymentService_Status_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(CardPaymentServiceServer).Status(ctx, req.(*RequestStatus))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
 // CardPaymentService_ServiceDesc is the grpc.ServiceDesc for CardPaymentService service.
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
@@ -114,6 +148,10 @@ var CardPaymentService_ServiceDesc = grpc.ServiceDesc{
 		{
 			MethodName: "Transaction",
 			Handler:    _CardPaymentService_Transaction_Handler,
+		},
+		{
+			MethodName: "Status",
+			Handler:    _CardPaymentService_Status_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},

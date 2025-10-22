@@ -142,5 +142,5 @@ func (s *Service) Transaction(ctx context.Context, req *card_payment.Request) (*
 		return nil, status.Errorf(codes.Internal, "General Error [U0]")
 	}
 
-	return &card_payment.Response{Status: "SUCCESS", Message: "Trx Success", Iso: isoResponse}, nil
+	return &card_payment.Response{Status: "SUCCESS", Message: "Trx Success", Iso: isoResponse, Id: idTrx}, nil
 }

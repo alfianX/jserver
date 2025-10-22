@@ -59,7 +59,7 @@ func NewService() (*Service, error) {
 
 func (s *Service) Run(ctx context.Context) error {
 	server := http.Server{
-		Addr:    fmt.Sprintf("127.0.0.1:%d", s.config.CnfLoc.ListenPort),
+		Addr:    fmt.Sprintf("0.0.0.0:%d", s.config.CnfLoc.ListenPort),
 		Handler: s.router,
 	}
 

@@ -6,6 +6,7 @@ option go_package = "./proto/card-payment";
 
 service CardPaymentService {
     rpc Transaction (Request) returns (Response);
+    rpc Status (RequestStatus) returns (ResponseStatus);
 }
 
 message Request {
@@ -18,4 +19,15 @@ message Response {
     string status = 1;
     string message = 2;
     string iso = 3;
+    int64 id = 4;
+}
+
+message RequestStatus {
+    string serialNumber = 1;
+    int64 id = 2;
+}
+
+message ResponseStatus {
+    string status = 1;
+    string message = 2;
 }
