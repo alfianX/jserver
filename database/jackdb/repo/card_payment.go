@@ -45,7 +45,7 @@ func (r Repo) CardPaymentUpdateResponse(ctx context.Context, data *model.CardPay
 func (r Repo) CardPaymentGetDataForOdoo(ctx context.Context, tx *gorm.DB) ([]model.CardPayment, error) {
 	var data []model.CardPayment
 	err := tx.WithContext(ctx).Clauses(clause.Locking{Strength: "UPDATE"}).
-		Where("trx_type = ? AND mti = ? AND response_code = ? AND flag_success = ? AND flag_odo = ?", "SALE", "0200", "00", 1, 0).
+		Where("trx_type = ? AND mti = ? AND response_code = ? AND flag_odo = ?", "SALE", "0200", "00", 0).
 		Order("created_at desc").
 		Limit(4).
 		Find(&data).Error

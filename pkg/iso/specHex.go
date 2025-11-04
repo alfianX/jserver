@@ -2,6 +2,7 @@ package iso
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/moov-io/iso8583"
 	"github.com/moov-io/iso8583/encoding"
@@ -554,8 +555,8 @@ var Spec87Hex *iso8583.MessageSpec = &iso8583.MessageSpec{
 					return nil, fmt.Errorf("failed to encode length: %w", err)
 				}
 
-				if len(encodedValue) == maxLength {
-					encodedValue = spec.Pad.Pad(encodedValue, maxLength+1)
+				if len(encodedValue)%2 != 0 {
+					encodedValue = spec.Pad.Pad(encodedValue, len(encodedValue)+1)
 				}
 
 				return append(lengthPrefix, encodedValue...), nil
@@ -577,7 +578,7 @@ var Spec87Hex *iso8583.MessageSpec = &iso8583.MessageSpec{
 					return nil, 0, fmt.Errorf("failed to decode content: %w", err)
 				}
 
-				if valueLength == maxEncodedValueLength {
+				if valueLength%2 != 0 {
 					prefBytes = prefBytes + 1
 				}
 
@@ -589,13 +590,6 @@ var Spec87Hex *iso8583.MessageSpec = &iso8583.MessageSpec{
 			Description: "Extended Primary Account Number",
 			Enc:         encoding.ASCII,
 			Pref:        prefix.ASCII.LL,
-		}),
-		35: field.NewString(&field.Spec{
-			Length:      37,
-			Description: "Track 2 Data",
-			Enc:         encoding.ASCII,
-			Pref:        prefix.ASCII.LL,
-			Pad:         padding.Right('F'),
 			Packer: field.PackerFunc(func(value []byte, spec *field.Spec) ([]byte, error) {
 				// if spec.Pad != nil {
 				// 	value = spec.Pad.Pad(value, spec.Length)
@@ -615,8 +609,8 @@ var Spec87Hex *iso8583.MessageSpec = &iso8583.MessageSpec{
 					return nil, fmt.Errorf("failed to encode length: %w", err)
 				}
 
-				if len(encodedValue) == maxLength {
-					encodedValue = spec.Pad.Pad(encodedValue, maxLength+1)
+				if len(encodedValue)%2 != 0 {
+					encodedValue = spec.Pad.Pad(encodedValue, len(encodedValue)+1)
 				}
 
 				return append(lengthPrefix, encodedValue...), nil
@@ -638,7 +632,69 @@ var Spec87Hex *iso8583.MessageSpec = &iso8583.MessageSpec{
 					return nil, 0, fmt.Errorf("failed to decode content: %w", err)
 				}
 
-				if valueLength == maxEncodedValueLength {
+				if valueLength%2 != 0 {
+					prefBytes = prefBytes + 1
+				}
+
+				return value, read + prefBytes, nil
+			}),
+		}),
+		35: field.NewString(&field.Spec{
+			Length:      37,
+			Description: "Track 2 Data",
+			Enc:         encoding.ASCII,
+			Pref:        prefix.ASCII.LL,
+			Pad:         padding.Right('F'),
+			Packer: field.PackerFunc(func(value []byte, spec *field.Spec) ([]byte, error) {
+				// if spec.Pad != nil {
+				// 	value = spec.Pad.Pad(value, spec.Length)
+				// }
+				if strings.Contains(string(value), "=") {
+					newVal := strings.ReplaceAll(string(value), "=", "D")
+					value = []byte(newVal)
+				}
+
+				encodedValue, err := spec.Enc.Encode(value)
+				if err != nil {
+					return nil, fmt.Errorf("failed to encode content: %w", err)
+				}
+
+				// Encode the length of the packed data, not the length of the value
+				maxLength := spec.Length
+
+				// Encode the length of the encoded value
+				lengthPrefix, err := spec.Pref.EncodeLength(maxLength, len(encodedValue))
+				if err != nil {
+					return nil, fmt.Errorf("failed to encode length: %w", err)
+				}
+
+				// if len(encodedValue) == maxLength {
+				// 	encodedValue = spec.Pad.Pad(encodedValue, maxLength+1)
+				// }
+				if len(encodedValue)%2 != 0 {
+					encodedValue = spec.Pad.Pad(encodedValue, len(encodedValue)+1)
+				}
+
+				return append(lengthPrefix, encodedValue...), nil
+			}),
+			Unpacker: field.UnpackerFunc(func(packedFieldValue []byte, spec *field.Spec) ([]byte, int, error) {
+				maxEncodedValueLength := spec.Length
+
+				encodedValueLength, prefBytes, err := spec.Pref.DecodeLength(maxEncodedValueLength, packedFieldValue)
+				if err != nil {
+					return nil, 0, fmt.Errorf("failed to decode length: %w", err)
+				}
+
+				// for BCD encoding, the length of the packed data is twice the length of the encoded value
+				valueLength := encodedValueLength
+
+				// Decode the packed data length
+				value, read, err := spec.Enc.Decode(packedFieldValue[prefBytes:], valueLength)
+				if err != nil {
+					return nil, 0, fmt.Errorf("failed to decode content: %w", err)
+				}
+
+				if valueLength%2 != 0 {
 					prefBytes = prefBytes + 1
 				}
 

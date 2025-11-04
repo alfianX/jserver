@@ -1,0 +1,604 @@
+[13:41:56] - microservice failed: context canceled
+
+[13:43:09] - Card-Payment - Save trx : context canceled
+
+[13:45:07] - microservice failed: error reading from server: read tcp 127.0.0.1:59392->127.0.0.1:8793: wsarecv: An existing connection was forcibly closed by the remote host.
+
+[13:49:38] - microservice failed: error reading from server: read tcp 127.0.0.1:59491->127.0.0.1:8793: wsarecv: An existing connection was forcibly closed by the remote host.
+
+[14:08:49] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:08:49] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:08:59] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:09:09] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:09:23] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:09:29] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:09:39] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:09:49] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:09:59] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:10:28] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:10:28] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:10:29] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:10:40] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:10:54] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:11:01] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:11:09] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:11:18] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:11:27] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:11:39] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:11:47] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:11:57] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:12:07] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:12:18] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:12:28] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:12:37] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:12:51] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:12:58] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:13:08] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:13:18] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:13:28] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:13:38] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:13:50] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:13:59] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:14:08] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:14:19] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:14:28] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:14:38] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:14:48] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:14:59] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:15:09] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:15:21] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:15:30] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:15:38] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:15:52] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:16:01] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:16:08] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:16:19] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:16:29] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:16:38] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:16:48] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:17:01] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:17:08] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:17:18] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:17:28] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:17:39] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:17:48] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:17:58] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:18:10] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:18:18] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:18:28] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:18:38] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:18:50] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:18:56] - Cron-Card-Payment - Cookie odoo empty!
+
+[14:19:26] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:19:30] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:19:34] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:19:39] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:19:52] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:20:01] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:20:12] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:20:21] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:20:29] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:20:42] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:20:47] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:20:58] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:21:10] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:21:21] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:21:28] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:21:39] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:21:48] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:21:58] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:22:10] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:22:18] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:22:28] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:22:37] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:22:49] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:22:58] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:23:08] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:23:19] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:23:27] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:23:37] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:23:50] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:23:58] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:24:08] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:24:19] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:24:27] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:24:38] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:24:49] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:24:58] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+
+[14:25:07] - Cron-Card-Payment - Send to odoo  : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+

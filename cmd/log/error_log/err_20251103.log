@@ -1,0 +1,12 @@
+[13:45:53] - Mini-Atm - Save trx : Error 1366 (HY000): Incorrect string value: '\x93 \x00\x00\x03\x03...' for column 'tid' at row 1
+
+[13:45:53] - microservice failed: General Error [S0]
+
+[13:46:23] - Mini-Atm - Save trx : Error 1366 (HY000): Incorrect string value: '\x93 \x00\x00\x03\x03...' for column 'tid' at row 1
+
+[13:46:23] - microservice failed: General Error [S0]
+
+[13:49:34] - microservice failed: context canceled
+
+[13:51:18] - microservice failed: error reading from server: read tcp 127.0.0.1:62724->127.0.0.1:8792: wsarecv: An existing connection was forcibly closed by the remote host.
+
