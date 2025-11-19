@@ -112,6 +112,8 @@ func (s *Service) Transaction(ctx context.Context, req *card_payment.Request) (*
 		return nil, status.Errorf(codes.InvalidArgument, "Host not found!")
 	}
 
+	time.Sleep(time.Duration(s.config.CnfGlob.TestTimeout) * time.Second)
+
 	isoResponse, err := h.TcpSendToHost(hostAddress, isoRequest, s.config.CnfGlob.TimeoutTrx)
 	if err != nil {
 		h.ErrorLog("Card-Payment - Send to host : " + err.Error())

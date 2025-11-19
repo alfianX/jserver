@@ -15,6 +15,7 @@ type ConfigGlobal struct {
 	Database      string `envconfig:"MYSQL_DSN"`
 	DatabaseParam string `envconfig:"MYSQL_DSN_PARAM"`
 	TimeoutTrx    int    `envconfig:"TIMEOUT_TRX" default:"50"`
+	TestTimeout   int    `envconfig:"TEST_TIMEOUT" default:"0"`
 	OdooURL       string `envconfig:"ODOO_URL"`
 }
 
