@@ -44,16 +44,16 @@ func (s *Service) Query(ctx context.Context, req *structpb.Struct) (*structpb.St
 		return nil, status.Errorf(codes.InvalidArgument, "missing header Host-Code!")
 	}
 
-	cookie, err := h.AuthenticateOdoo(s.config.CnfGlob.OdooURL + "/web/session/authenticate")
-	if err != nil {
-		h.ErrorLog("QR-Dynamic-Query - Get cookie odoo : "+err.Error(), "qr_dynamic")
-		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O3")
-	}
+	// cookie, err := h.AuthenticateOdoo(s.config.CnfGlob.OdooURL + "/web/session/authenticate")
+	// if err != nil {
+	// 	h.ErrorLog("QR-Dynamic-Query - Get cookie odoo : "+err.Error(), "qr_dynamic")
+	// 	return nil, status.Errorf(codes.Internal, "Service malfunction, code : O3")
+	// }
 
-	if cookie == "" {
-		h.ErrorLog("QR-Dynamic-Query - Cookie odoo empty !", "qr_dynamic")
-		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O4")
-	}
+	// if cookie == "" {
+	// 	h.ErrorLog("QR-Dynamic-Query - Cookie odoo empty !", "qr_dynamic")
+	// 	return nil, status.Errorf(codes.Internal, "Service malfunction, code : O4")
+	// }
 
 	res, err := h.CheckCodeTrxJournal(hostCode, s.config.CnfGlob.OdooURL+"/iid_api_manage")
 	if err != nil {
