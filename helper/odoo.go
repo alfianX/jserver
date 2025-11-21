@@ -74,8 +74,9 @@ func AuthenticateOdoo(hostAddress string) (string, error) {
 	return session_id, nil
 }
 
-func SendToOdoo(hostAddress, name, session_id, categ, trxType, hostName, data string) error {
-	type sendOdoo struct {
+func SendToOdoo(hostAddress, name, categ, trxType, hostName, data string) error {
+
+	type Body struct {
 		Categ           string      `json:"categ"`
 		Name            string      `json:"name"`
 		TransactionType string      `json:"transaction_type"`
@@ -83,12 +84,26 @@ func SendToOdoo(hostAddress, name, session_id, categ, trxType, hostName, data st
 		Data            interface{} `json:"data"`
 	}
 
-	send := sendOdoo{}
-	send.Categ = categ
-	send.Name = name
-	send.TransactionType = trxType
-	send.Host = hostName
-	send.Data = data
+	type sendOdoo struct {
+		Model  string                 `json:"model"`
+		Values map[string]interface{} `json:"values"`
+	}
+
+	send := sendOdoo{
+		Model: "iid.api.manage",
+		Values: map[string]interface{}{
+			name: map[string]interface{}{
+				"categ": categ,
+				"body": Body{
+					Categ:           categ,
+					Name:            name,
+					TransactionType: trxType,
+					Host:            hostName,
+					Data:            data,
+				},
+			},
+		},
+	}
 
 	reqOdoo, _ := json.Marshal(send)
 	fmt.Println("request to odoo" + string(reqOdoo))
@@ -99,7 +114,7 @@ func SendToOdoo(hostAddress, name, session_id, categ, trxType, hostName, data st
 	}
 
 	exReqOdoo.Header.Add("Content-Type", "application/json")
-	exReqOdoo.Header.Add("Cookie", "session_id="+session_id)
+	// exReqOdoo.Header.Add("Cookie", "session_id="+session_id)
 	// cookie := http.Cookie{}
 	// cookie.Name = "session_id"
 	// cookie.Value = session_id

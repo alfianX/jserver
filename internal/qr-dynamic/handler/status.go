@@ -37,20 +37,20 @@ func (s *Service) Status(ctx context.Context, req *structpb.Struct) (*structpb.S
 		return nil, status.Errorf(codes.InvalidArgument, "missing header Host-Code!")
 	}
 
-	cookie, err := h.AuthenticateOdoo(s.config.CnfGlob.OdooURL + "/web/session/authenticate")
-	if err != nil {
-		h.ErrorLog("QR-Dynamic - Get cookie odoo : " + err.Error())
-		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O3")
-	}
+	// cookie, err := h.AuthenticateOdoo(s.config.CnfGlob.OdooURL + "/web/session/authenticate")
+	// if err != nil {
+	// 	h.ErrorLog("QR-Dynamic - Get cookie odoo : " + err.Error())
+	// 	return nil, status.Errorf(codes.Internal, "Service malfunction, code : O3")
+	// }
 
-	if cookie == "" {
-		h.ErrorLog("QR-Dynamic - Cookie odoo empty !")
-		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O4")
-	}
+	// if cookie == "" {
+	// 	h.ErrorLog("QR-Dynamic - Cookie odoo empty !")
+	// 	return nil, status.Errorf(codes.Internal, "Service malfunction, code : O4")
+	// }
 
 	res, err := h.CheckCodeTrxJournal(hostCode, s.config.CnfGlob.OdooURL+"/iid_api_manage")
 	if err != nil {
-		h.ErrorLog("QR-Dynamic - Check code trx journal : " + err.Error())
+		h.ErrorLog("QR-Dynamic - Check code trx journal : "+err.Error(), "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O2")
 	}
 
@@ -65,7 +65,7 @@ func (s *Service) Status(ctx context.Context, req *structpb.Struct) (*structpb.S
 
 	id, err := s.jackdbService.QrCallbackSave(ctx, host, requestData)
 	if err != nil {
-		h.ErrorLog("QR-Dynamic - Save data : " + err.Error())
+		h.ErrorLog("QR-Dynamic - Save data : "+err.Error(), "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : S0")
 	}
 
@@ -80,13 +80,13 @@ func (s *Service) Status(ctx context.Context, req *structpb.Struct) (*structpb.S
 
 	err = s.jackdbService.QrCallbackUpdateResponse(ctx, responseData, id)
 	if err != nil {
-		h.ErrorLog("QR-Dynamic - Update data : " + err.Error())
+		h.ErrorLog("QR-Dynamic - Update data : "+err.Error(), "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : U0")
 	}
 
-	err = h.SendToOdoo(s.config.CnfGlob.OdooURL+"/iid_api_manage/post_data", host, cookie, "Transaction", hostCode, host, requestData)
+	err = h.SendToOdoo(s.config.CnfGlob.OdooURL+"/iid_api_manage", host, "Transaction", hostCode, host, requestData)
 	if err != nil {
-		h.ErrorLog("QR-Dynamic - Send to odoo : " + err.Error())
+		h.ErrorLog("QR-Dynamic - Send to odoo : "+err.Error(), "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O5")
 	}
 

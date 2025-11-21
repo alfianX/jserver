@@ -91,7 +91,7 @@ func (s Service) CardPaymentSendToOdoo(ctx context.Context, cfg config.Config, j
 	data, err := s.repo.CardPaymentGetDataForOdoo(ctx, s.repo.Db)
 	if err != nil {
 		fmt.Println("Cron-Card-Payment - Get data in db for odoo : " + err.Error())
-		helper.ErrorLog("Cron-Card-Payment - Get data in db for odoo : " + err.Error())
+		helper.ErrorLog("Cron-Card-Payment - Get data in db for odoo : "+err.Error(), "card_payment")
 		return
 	}
 
@@ -123,7 +123,7 @@ func (s Service) CardPaymentSendToOdoo(ctx context.Context, cfg config.Config, j
 		jsonBytes, err := json.Marshal(payload)
 		if err != nil {
 			fmt.Println("Cron-Card-Payment - Marshal json odoo : " + err.Error())
-			helper.ErrorLog("Cron-Card-Payment - Marshal json odoo : " + err.Error())
+			helper.ErrorLog("Cron-Card-Payment - Marshal json odoo : "+err.Error(), "card_payment")
 			break
 		}
 
@@ -137,27 +137,27 @@ func (s Service) CardPaymentSendToOdoo(ctx context.Context, cfg config.Config, j
 		name, code, err := jackdbParamService.CodeOdooGetName(ctx, row.Host, row.TrxType)
 		if err != nil {
 			fmt.Println("Cron-Card-Payment - Get code odoo : " + err.Error())
-			helper.ErrorLog("Cron-Card-Payment - Get code odoo : " + err.Error())
+			helper.ErrorLog("Cron-Card-Payment - Get code odoo : "+err.Error(), "card_payment")
 			break
 		}
 
-		cookie, err := helper.AuthenticateOdoo(cfg.CnfGlob.OdooURL + "/web/session/authenticate")
-		if err != nil {
-			fmt.Println("Cron-Card-Payment - Get cookie odoo : " + err.Error())
-			helper.ErrorLog("Cron-Card-Payment - Get cookie odoo : " + err.Error())
-			break
-		}
+		// cookie, err := helper.AuthenticateOdoo(cfg.CnfGlob.OdooURL + "/web/session/authenticate")
+		// if err != nil {
+		// 	fmt.Println("Cron-Card-Payment - Get cookie odoo : " + err.Error())
+		// 	helper.ErrorLog("Cron-Card-Payment - Get cookie odoo : " + err.Error())
+		// 	break
+		// }
 
-		if cookie == "" {
-			fmt.Println("Cron-Card-Payment - Cookie odoo empty!")
-			helper.ErrorLog("Cron-Card-Payment - Cookie odoo empty!")
-			break
-		}
+		// if cookie == "" {
+		// 	fmt.Println("Cron-Card-Payment - Cookie odoo empty!")
+		// 	helper.ErrorLog("Cron-Card-Payment - Cookie odoo empty!")
+		// 	break
+		// }
 
-		err = helper.SendToOdoo(cfg.CnfGlob.OdooURL+"/iid_api_manage/post_data", name, cookie, "Transaction", code, "Arthajasa", jsonString)
+		err = helper.SendToOdoo(cfg.CnfGlob.OdooURL+"/iid_api_manage", name, "Transaction", code, "Arthajasa", jsonString)
 		if err != nil {
 			fmt.Println("Cron-Card-Payment - Send to odoo : " + err.Error())
-			helper.ErrorLog("Cron-Card-Payment - Send to odoo  : " + err.Error())
+			helper.ErrorLog("Cron-Card-Payment - Send to odoo  : "+err.Error(), "card_payment")
 			break
 		}
 
@@ -167,7 +167,7 @@ func (s Service) CardPaymentSendToOdoo(ctx context.Context, cfg config.Config, j
 		})
 		if err != nil {
 			fmt.Println("Cron-Card-Payment - Update flag odoo : " + err.Error())
-			helper.ErrorLog("Cron-Card-Payment - Update flag odoo  : " + err.Error())
+			helper.ErrorLog("Cron-Card-Payment - Update flag odoo  : "+err.Error(), "card_payment")
 			break
 		}
 	}

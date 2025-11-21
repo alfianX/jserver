@@ -38,7 +38,7 @@ func (s *service) Actions(c *gin.Context) {
 
 	srv, err := s.jackdbParamService.GetServices(c, path)
 	if err != nil {
-		h.ErrorLog("Get url microservice: " + err.Error())
+		h.ErrorLog("Get url microservice: "+err.Error(), "gateway")
 		responseErr.Status = "SERVER_FAILED"
 		responseErr.Message = "Service Malfunction"
 		h.Respond(c, responseErr, http.StatusInternalServerError)
@@ -54,7 +54,7 @@ func (s *service) Actions(c *gin.Context) {
 
 	bodyBytes, err := io.ReadAll(c.Request.Body)
 	if err != nil {
-		h.ErrorLog("Get body: " + err.Error())
+		h.ErrorLog("Get body: "+err.Error(), "gateway")
 		responseErr.Status = "SERVER_FAILED"
 		responseErr.Message = "Service Malfunction"
 		h.Respond(c, responseErr, http.StatusInternalServerError)
@@ -71,7 +71,7 @@ func (s *service) Actions(c *gin.Context) {
 		var minified bytes.Buffer
 		err = json.Compact(&minified, bodyBytes)
 		if err != nil {
-			h.ErrorLog("json minify failed: " + err.Error())
+			h.ErrorLog("json minify failed: "+err.Error(), "gateway")
 			responseErr.Status = "SERVER_FAILED"
 			responseErr.Message = "Service Malfunction"
 			h.Respond(c, responseErr, http.StatusInternalServerError)
@@ -161,7 +161,7 @@ func (s *service) Actions(c *gin.Context) {
 
 	dataHeader, err := s.jackdbParamService.AllowedHeadersGetHeaderName(c)
 	if err != nil {
-		h.ErrorLog("Get header name: " + err.Error())
+		h.ErrorLog("Get header name: "+err.Error(), "gateway")
 		responseErr.Status = "SERVER_FAILED"
 		responseErr.Message = "Service Malfunction"
 		h.Respond(c, responseErr, http.StatusInternalServerError)
@@ -195,7 +195,7 @@ func (s *service) Actions(c *gin.Context) {
 	if err != nil {
 		st, ok := status.FromError(err)
 		if ok {
-			h.ErrorLog("microservice failed: " + st.Message())
+			h.ErrorLog("microservice failed: "+st.Message(), "gateway")
 			httpCode := mapGrpcCodeToHTTP(st.Code())
 			responseErr.Status = "SERVER_FAILED"
 			responseErr.Message = st.Message()
@@ -218,7 +218,7 @@ func (s *service) Actions(c *gin.Context) {
 				return
 			}
 		}
-		h.ErrorLog("microservice failed: " + err.Error())
+		h.ErrorLog("microservice failed: "+err.Error(), "gateway")
 		responseErr.Status = "SERVER_FAILED"
 		responseErr.Message = "Service Malfunction"
 		h.Respond(c, responseErr, http.StatusInternalServerError)

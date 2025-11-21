@@ -39,13 +39,13 @@ func main() {
 func run(ctx context.Context) {
 	server, err := cardpayment.NewService()
 	if err != nil {
-		h.ErrorLog(fmt.Sprintf("%+v", err))
+		h.ErrorLog(fmt.Sprintf("%+v", err), "card_payment")
 		log.Fatalf("%+v", err)
 	}
 
 	err = server.Run(ctx)
 	if err != nil {
-		h.ErrorLog(fmt.Sprintf("%+v", err))
+		h.ErrorLog(fmt.Sprintf("%+v", err), "card_payment")
 		log.Fatalf("%+v", err)
 	}
 }

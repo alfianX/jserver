@@ -13,7 +13,8 @@ import (
 )
 
 type CronService struct {
-	cnf                config.Config
+	cnf config.Config
+	// cookieOdoo         string
 	jackdbService      servicedb.Service
 	jackdbParamService servicedb_param.Service
 }

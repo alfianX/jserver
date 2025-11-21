@@ -98,13 +98,13 @@ func (s *Service) Transaction(ctx context.Context, req *card_payment.Request) (*
 		Host:            host,
 	})
 	if err != nil {
-		h.ErrorLog("Card-Payment - Save trx : " + err.Error())
+		h.ErrorLog("Card-Payment - Save trx : "+err.Error(), "card_payment")
 		return nil, status.Errorf(codes.Internal, "General Error [S0]")
 	}
 
 	hostAddress, err := s.jackdbParamService.HostDebitGetAddress(ctx, host)
 	if err != nil {
-		h.ErrorLog("Card-Payment - Check host : " + err.Error())
+		h.ErrorLog("Card-Payment - Check host : "+err.Error(), "card_payment")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : H0")
 	}
 
@@ -116,7 +116,7 @@ func (s *Service) Transaction(ctx context.Context, req *card_payment.Request) (*
 
 	isoResponse, err := h.TcpSendToHost(hostAddress, isoRequest, s.config.CnfGlob.TimeoutTrx)
 	if err != nil {
-		h.ErrorLog("Card-Payment - Send to host : " + err.Error())
+		h.ErrorLog("Card-Payment - Send to host : "+err.Error(), "card_payment")
 		return nil, status.Errorf(codes.Internal, "General Error [H0]")
 	}
 
@@ -140,7 +140,7 @@ func (s *Service) Transaction(ctx context.Context, req *card_payment.Request) (*
 		Rrn:                     rrn,
 	})
 	if err != nil {
-		h.ErrorLog("Card-Payment - Update trx : " + err.Error())
+		h.ErrorLog("Card-Payment - Update trx : "+err.Error(), "card_payment")
 		return nil, status.Errorf(codes.Internal, "General Error [U0]")
 	}
 

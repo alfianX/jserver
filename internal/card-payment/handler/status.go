@@ -20,7 +20,7 @@ func (s *Service) Status(ctx context.Context, req *card_payment.RequestStatus) (
 
 	err := s.jackdbService.CardPaymentUpdateFlagSuccess(ctx, req.Id)
 	if err != nil {
-		h.ErrorLog("Card-Payment-Status - Update flag success : " + err.Error())
+		h.ErrorLog("Card-Payment-Status - Update flag success : "+err.Error(), "card_payment")
 		return nil, status.Errorf(codes.Internal, "General Error [S0]")
 	}
 

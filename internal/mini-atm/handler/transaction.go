@@ -102,13 +102,13 @@ func (s *Service) Transaction(ctx context.Context, req *mini_atm.Request) (*mini
 		Host:            host,
 	})
 	if err != nil {
-		h.ErrorLog("Mini-Atm - Save trx : " + err.Error())
+		h.ErrorLog("Mini-Atm - Save trx : "+err.Error(), "mini_atm")
 		return nil, status.Errorf(codes.Internal, "General Error [S0]")
 	}
 
 	hostAddress, err := s.jackdbParamService.HostMiniatmGetAddress(ctx, host)
 	if err != nil {
-		h.ErrorLog("Mini-Atm - Check host : " + err.Error())
+		h.ErrorLog("Mini-Atm - Check host : "+err.Error(), "mini_atm")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : H0")
 	}
 
@@ -118,7 +118,7 @@ func (s *Service) Transaction(ctx context.Context, req *mini_atm.Request) (*mini
 
 	isoResponse, err := h.TcpSendToHost(hostAddress, isoRequest, s.config.CnfGlob.TimeoutTrx)
 	if err != nil {
-		h.ErrorLog("Mini-Atm - Send to host : " + err.Error())
+		h.ErrorLog("Mini-Atm - Send to host : "+err.Error(), "mini_atm")
 		return nil, status.Errorf(codes.Internal, "General Error [H0]")
 	}
 
@@ -140,7 +140,7 @@ func (s *Service) Transaction(ctx context.Context, req *mini_atm.Request) (*mini
 		Rrn:                     rrn,
 	})
 	if err != nil {
-		h.ErrorLog("Mini-Atm - Update trx : " + err.Error())
+		h.ErrorLog("Mini-Atm - Update trx : "+err.Error(), "mini_atm")
 		return nil, status.Errorf(codes.Internal, "General Error [U0]")
 	}
 

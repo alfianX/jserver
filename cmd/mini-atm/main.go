@@ -39,13 +39,13 @@ func main() {
 func run(ctx context.Context) {
 	server, err := miniatm.NewService()
 	if err != nil {
-		h.ErrorLog(fmt.Sprintf("%+v", err))
+		h.ErrorLog(fmt.Sprintf("%+v", err), "mini_atm")
 		log.Fatalf("%+v", err)
 	}
 
 	err = server.Run(ctx)
 	if err != nil {
-		h.ErrorLog(fmt.Sprintf("%+v", err))
+		h.ErrorLog(fmt.Sprintf("%+v", err), "mini_atm")
 		log.Fatalf("%+v", err)
 	}
 }

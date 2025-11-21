@@ -12,16 +12,16 @@ import (
 
 type Service struct {
 	qr_dynamic.UnimplementedQrDynamicServiceServer
-	config             config.Config
-	cookieOdoo         string
+	config config.Config
+	// cookieOdoo         string
 	jackdbService      servicedb.Service
 	jackdbParamService servicedb_param.Service
 }
 
-func NewHandler(cookieOdoo string, cnf config.Config, db, dbParam *gorm.DB) *Service {
+func NewHandler(cnf config.Config, db, dbParam *gorm.DB) *Service {
 	return &Service{
-		config:             cnf,
-		cookieOdoo:         cookieOdoo,
+		config: cnf,
+		// cookieOdoo:         cookieOdoo,
 		jackdbService:      servicedb.NewService(repo.NewRepo(db)),
 		jackdbParamService: servicedb_param.NewService(repo_param.NewRepo(dbParam)),
 	}

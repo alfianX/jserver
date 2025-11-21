@@ -39,13 +39,13 @@ func main() {
 func run(ctx context.Context) {
 	server, err := qrnotif.NewService()
 	if err != nil {
-		h.ErrorLog(fmt.Sprintf("%+v", err))
+		h.ErrorLog(fmt.Sprintf("%+v", err), "qr_notif")
 		log.Fatalf("%+v", err)
 	}
 
 	err = server.Run(ctx)
 	if err != nil {
-		h.ErrorLog(fmt.Sprintf("%+v", err))
+		h.ErrorLog(fmt.Sprintf("%+v", err), "qr_notif")
 		log.Fatalf("%+v", err)
 	}
 }

@@ -11,11 +11,11 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func ErrorLog(logMessage string) {
+func ErrorLog(logMessage, from string) {
 	currentTime := time.Now()
 	gmtFormat := "20060102"
 	dateString := currentTime.Format(gmtFormat)
-	filename := fmt.Sprintf("../log/error_log/err_%s.log", dateString)
+	filename := fmt.Sprintf("../log/error_log_%s/err_%s.log", from, dateString)
 	file, err := os.OpenFile(filename, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 
 	if err != nil {
@@ -34,7 +34,7 @@ func HistoryReqLog(c *gin.Context, dataRequestByte []byte, dateString, timeStrin
 	re := regexp.MustCompile(`\r?\n`)
 	dataRequest := re.ReplaceAllString(string(dataRequestByte), "")
 	dataRequest = strings.ReplaceAll(dataRequest, " ", "")
-	
+
 	logMessage := fmt.Sprintf("[%s] - path:%s, method: %s,\n requestBody: %v", timeString, c.Request.URL.EscapedPath(), c.Request.Method, dataRequest)
 
 	filename := fmt.Sprintf("../log/history_log/%s_%s.log", name, dateString)
@@ -44,7 +44,7 @@ func HistoryReqLog(c *gin.Context, dataRequestByte []byte, dateString, timeStrin
 		fmt.Println(err)
 	}
 	defer file.Close()
-	
+
 	file.WriteString(logMessage)
 }
 
@@ -52,7 +52,7 @@ func HistoryRespLog(dataResponseByte []byte, dateString, timeString, name string
 	re := regexp.MustCompile(`\r?\n`)
 	dataResponse := re.ReplaceAllString(string(dataResponseByte), "")
 	dataResponse = strings.ReplaceAll(dataResponse, " ", "")
-	
+
 	logMessage := fmt.Sprintf("\n respondStatus: %d, respondBody: %s\n", http.StatusOK, dataResponse)
 
 	filename := fmt.Sprintf("../log/history_log/%s_%s.log", name, dateString)
@@ -62,7 +62,7 @@ func HistoryRespLog(dataResponseByte []byte, dateString, timeString, name string
 		fmt.Println(err)
 	}
 	defer file.Close()
-	
+
 	file.WriteString(logMessage)
 }
 
@@ -77,7 +77,7 @@ func HistoryLog(logMessage, name string) {
 		fmt.Println(err)
 	}
 	defer file.Close()
-	
+
 	file.WriteString(logMessage)
 }
 
@@ -92,6 +92,6 @@ func IssuerLog(logMessage, name string) {
 		fmt.Println(err)
 	}
 	defer file.Close()
-	
+
 	file.WriteString(logMessage)
 }

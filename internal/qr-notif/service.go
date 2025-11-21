@@ -47,8 +47,8 @@ func NewService() (*Service, error) {
 	// 	return nil, errors.New("odoo fail login")
 	// }
 
-	// svcHandler := handler.NewHandler(cookie, cnf, db)
 	svcHandler := handler.NewHandler(cnf, db)
+	// svcHandler := handler.NewHandler(cnf, db)
 
 	s := Service{
 		logger:     log,

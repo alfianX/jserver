@@ -84,7 +84,7 @@ func (s Service) SendToOdoo(ctx context.Context, cfg config.Config, jackdbParamS
 	data, err := s.repo.MiniAtmGetDataForOdoo(ctx, s.repo.Db)
 	if err != nil {
 		fmt.Println("Cron-Mini-ATM - Get data in db for odoo : " + err.Error())
-		helper.ErrorLog("Cron-Mini-ATM - Get data in db for odoo : " + err.Error())
+		helper.ErrorLog("Cron-Mini-ATM - Get data in db for odoo : "+err.Error(), "mini_atm")
 		return
 	}
 
@@ -116,7 +116,7 @@ func (s Service) SendToOdoo(ctx context.Context, cfg config.Config, jackdbParamS
 		jsonBytes, err := json.Marshal(payload)
 		if err != nil {
 			fmt.Println("Cron-Mini-ATM - Marshal json odoo : " + err.Error())
-			helper.ErrorLog("Cron-Mini-ATM - Marshal json odoo : " + err.Error())
+			helper.ErrorLog("Cron-Mini-ATM - Marshal json odoo : "+err.Error(), "mini_atm")
 			break
 		}
 
@@ -145,27 +145,27 @@ func (s Service) SendToOdoo(ctx context.Context, cfg config.Config, jackdbParamS
 		name, code, err := jackdbParamService.CodeOdooGetName(ctx, row.Host, trxType)
 		if err != nil {
 			fmt.Println("Cron-Card-Payment - Get code odoo : " + err.Error())
-			helper.ErrorLog("Cron-Card-Payment - Get code odoo : " + err.Error())
+			helper.ErrorLog("Cron-Card-Payment - Get code odoo : "+err.Error(), "mini_atm")
 			break
 		}
 
-		cookie, err := helper.AuthenticateOdoo(cfg.CnfGlob.OdooURL + "/web/session/authenticate")
-		if err != nil {
-			fmt.Println("Cron-Mini-ATM - Get cookie odoo : " + err.Error())
-			helper.ErrorLog("Cron-Mini-ATM - Get cookie odoo : " + err.Error())
-			break
-		}
+		// cookie, err := helper.AuthenticateOdoo(cfg.CnfGlob.OdooURL + "/web/session/authenticate")
+		// if err != nil {
+		// 	fmt.Println("Cron-Mini-ATM - Get cookie odoo : " + err.Error())
+		// 	helper.ErrorLog("Cron-Mini-ATM - Get cookie odoo : " + err.Error())
+		// 	break
+		// }
 
-		if cookie == "" {
-			fmt.Println("Cron-Mini-ATM - Cookie odoo empty!")
-			helper.ErrorLog("Cron-Mini-ATM - Cookie odoo empty!")
-			break
-		}
+		// if cookie == "" {
+		// 	fmt.Println("Cron-Mini-ATM - Cookie odoo empty!")
+		// 	helper.ErrorLog("Cron-Mini-ATM - Cookie odoo empty!")
+		// 	break
+		// }
 
-		err = helper.SendToOdoo(cfg.CnfGlob.OdooURL+"/iid_api_manage/post_data", name, cookie, "Transaction", code, "Arthajasa", jsonString)
+		err = helper.SendToOdoo(cfg.CnfGlob.OdooURL+"/iid_api_manage", name, "Transaction", code, "Arthajasa", jsonString)
 		if err != nil {
 			fmt.Println("Cron-Mini-ATM - Send to odoo : " + err.Error())
-			helper.ErrorLog("Cron-Mini-ATM - Send to odoo  : " + err.Error())
+			helper.ErrorLog("Cron-Mini-ATM - Send to odoo  : "+err.Error(), "mini_atm")
 			break
 		}
 
@@ -175,7 +175,7 @@ func (s Service) SendToOdoo(ctx context.Context, cfg config.Config, jackdbParamS
 		})
 		if err != nil {
 			fmt.Println("Cron-Mini-ATM - Update flag odoo : " + err.Error())
-			helper.ErrorLog("Cron-Mini-ATM - Update flag odoo  : " + err.Error())
+			helper.ErrorLog("Cron-Mini-ATM - Update flag odoo  : "+err.Error(), "mini_atm")
 			break
 		}
 	}

@@ -40,13 +40,13 @@ func (s *Service) Status(ctx context.Context, req *structpb.Struct) (*structpb.S
 	if idFloat, ok := data["id"].(float64); ok {
 		idReq = int64(idFloat)
 	} else {
-		h.ErrorLog("QR-Notif - Could not extract ID as float64 !")
+		h.ErrorLog("QR-Notif - Could not extract ID as float64 !", "qr_notif")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : I0")
 	}
 
 	res, err := h.CheckNameTrxJournal(data["issuer"].(string), s.config.CnfGlob.OdooURL+"/iid_api_manage")
 	if err != nil && err.Error() != "nothing" {
-		h.ErrorLog("QR-Notif - Check code trx journal : " + err.Error())
+		h.ErrorLog("QR-Notif - Check code trx journal : "+err.Error(), "qr_notif")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O1 - id:%d", idReq)
 	}
 
@@ -59,7 +59,7 @@ func (s *Service) Status(ctx context.Context, req *structpb.Struct) (*structpb.S
 
 		res, err := h.CheckCodeTrxJournal(hostCode, s.config.CnfGlob.OdooURL+"/iid_api_manage")
 		if err != nil {
-			h.ErrorLog("QR-Notif - Check code trx journal : " + err.Error())
+			h.ErrorLog("QR-Notif - Check code trx journal : "+err.Error(), "qr_notif")
 			return nil, status.Errorf(codes.Internal, "Service malfunction, code : O2 - id:%d", idReq)
 		}
 
@@ -68,16 +68,16 @@ func (s *Service) Status(ctx context.Context, req *structpb.Struct) (*structpb.S
 		}
 	}
 
-	cookie, err := h.AuthenticateOdoo(s.config.CnfGlob.OdooURL + "/web/session/authenticate")
-	if err != nil {
-		h.ErrorLog("QR-Notif - Get cookie odoo : " + err.Error())
-		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O3 - id:%d", idReq)
-	}
+	// cookie, err := h.AuthenticateOdoo(s.config.CnfGlob.OdooURL + "/web/session/authenticate")
+	// if err != nil {
+	// 	h.ErrorLog("QR-Notif - Get cookie odoo : " + err.Error())
+	// 	return nil, status.Errorf(codes.Internal, "Service malfunction, code : O3 - id:%d", idReq)
+	// }
 
-	if cookie == "" {
-		h.ErrorLog("QR-Notif - Cookie odoo empty !")
-		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O4 - id:%d", idReq)
-	}
+	// if cookie == "" {
+	// 	h.ErrorLog("QR-Notif - Cookie odoo empty !")
+	// 	return nil, status.Errorf(codes.Internal, "Service malfunction, code : O4 - id:%d", idReq)
+	// }
 
 	reqData, _ := json.Marshal(data)
 	requestData := string(reqData)
@@ -86,7 +86,7 @@ func (s *Service) Status(ctx context.Context, req *structpb.Struct) (*structpb.S
 
 	id, err := s.jackdbService.QrNotifSave(ctx, requestData)
 	if err != nil {
-		h.ErrorLog("QR-Notif - Save data : " + err.Error())
+		h.ErrorLog("QR-Notif - Save data : "+err.Error(), "qr_notif")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : S0 - id:%d", idReq)
 	}
 
@@ -103,13 +103,13 @@ func (s *Service) Status(ctx context.Context, req *structpb.Struct) (*structpb.S
 
 	err = s.jackdbService.QrNotifUpdateResponse(ctx, responseData, id)
 	if err != nil {
-		h.ErrorLog("QR-Notif - Update data : " + err.Error())
+		h.ErrorLog("QR-Notif - Update data : "+err.Error(), "qr_notif")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : U0 - id:%d", idReq)
 	}
 
-	err = h.SendToOdoo(s.config.CnfGlob.OdooURL+"/iid_api_manage/post_data", "soundbox", cookie, "Transaction", hostCode, host, requestData)
+	err = h.SendToOdoo(s.config.CnfGlob.OdooURL+"/iid_api_manage", "soundbox", "Transaction", hostCode, host, requestData)
 	if err != nil {
-		h.ErrorLog("QR-Notif - Send to odoo : " + err.Error())
+		h.ErrorLog("QR-Notif - Send to odoo : "+err.Error(), "qr_notif")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O5 - id:%d", idReq)
 	}
 

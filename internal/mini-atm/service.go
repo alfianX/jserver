@@ -45,6 +45,15 @@ func NewService() (*Service, error) {
 
 	log := internal.NewLogger()
 
+	// cookie, err := helper.AuthenticateOdoo(cnf.CnfGlob.OdooURL + "/web/session/authenticate")
+	// if err != nil {
+	// 	return nil, err
+	// }
+
+	// if cookie == "" {
+	// 	return nil, errors.New("odoo fail login")
+	// }
+
 	svcHandler := handler.NewHandler(cnf, db, dbParam)
 	cron := NewCronJob(cnf, db, dbParam)
 

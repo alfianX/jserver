@@ -46,18 +46,18 @@ func (s *Service) GenerateQr(ctx context.Context, req *structpb.Struct) (*struct
 
 	cookie, err := h.AuthenticateOdoo(s.config.CnfGlob.OdooURL + "/web/session/authenticate")
 	if err != nil {
-		h.ErrorLog("QR-Dynamic - Get cookie odoo : " + err.Error())
+		h.ErrorLog("QR-Dynamic - Get cookie odoo : "+err.Error(), "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O3")
 	}
 
 	if cookie == "" {
-		h.ErrorLog("QR-Dynamic - Cookie odoo empty !")
+		h.ErrorLog("QR-Dynamic - Cookie odoo empty !", "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O4")
 	}
 
 	res, err := h.CheckCodeTrxJournal(hostCode, s.config.CnfGlob.OdooURL+"/iid_api_manage")
 	if err != nil {
-		h.ErrorLog("QR-Dynamic - Check code trx journal : " + err.Error())
+		h.ErrorLog("QR-Dynamic - Check code trx journal : "+err.Error(), "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : O2")
 	}
 
@@ -72,7 +72,7 @@ func (s *Service) GenerateQr(ctx context.Context, req *structpb.Struct) (*struct
 
 	id, err := s.jackdbService.QrGenerateSave(ctx, host, requestData)
 	if err != nil {
-		h.ErrorLog("QR-Dynamic-Generate - Save data : " + err.Error())
+		h.ErrorLog("QR-Dynamic-Generate - Save data : "+err.Error(), "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : S0")
 	}
 
@@ -88,7 +88,7 @@ func (s *Service) GenerateQr(ctx context.Context, req *structpb.Struct) (*struct
 
 	hostAddress, err := s.jackdbParamService.GetAddressByName(ctx, host)
 	if err != nil {
-		h.ErrorLog("QR-Dynamic-Generate - Check host : " + err.Error())
+		h.ErrorLog("QR-Dynamic-Generate - Check host : "+err.Error(), "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : H0")
 	}
 
@@ -98,7 +98,7 @@ func (s *Service) GenerateQr(ctx context.Context, req *structpb.Struct) (*struct
 
 	exReq, err := http.NewRequest(method, hostAddress, strings.NewReader(payload))
 	if err != nil {
-		h.ErrorLog("QR-Dynamic-Generate - Prepare send to host : " + err.Error())
+		h.ErrorLog("QR-Dynamic-Generate - Prepare send to host : "+err.Error(), "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : N0")
 	}
 
@@ -113,7 +113,7 @@ func (s *Service) GenerateQr(ctx context.Context, req *structpb.Struct) (*struct
 		if strings.Contains(err.Error(), "Timeout") {
 			return nil, status.Errorf(codes.Internal, "request timeout!")
 		}
-		h.ErrorLog("QR-Dynamic-Generate - Send to host : " + err.Error())
+		h.ErrorLog("QR-Dynamic-Generate - Send to host : "+err.Error(), "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : N1")
 	}
 
@@ -123,19 +123,19 @@ func (s *Service) GenerateQr(ctx context.Context, req *structpb.Struct) (*struct
 	if response.Header.Get("Content-Encoding") != "" {
 		reader, err := gzip.NewReader(response.Body)
 		if err != nil {
-			h.ErrorLog("QR-Dynamic-Generate - Read gzip encode : " + err.Error())
+			h.ErrorLog("QR-Dynamic-Generate - Read gzip encode : "+err.Error(), "qr_dynamic")
 			return nil, status.Errorf(codes.Internal, "Service malfunction, code : G0")
 		}
 		defer reader.Close()
 		responseByte, err = io.ReadAll(reader)
 		if err != nil {
-			h.ErrorLog("QR-Dynamic-Generate - Read response host : " + err.Error())
+			h.ErrorLog("QR-Dynamic-Generate - Read response host : "+err.Error(), "qr_dynamic")
 			return nil, status.Errorf(codes.Internal, "Service malfunction, code : R0")
 		}
 	} else {
 		responseByte, err = io.ReadAll(response.Body)
 		if err != nil {
-			h.ErrorLog("QR-Dynamic-Generate - Read response host : " + err.Error())
+			h.ErrorLog("QR-Dynamic-Generate - Read response host : "+err.Error(), "qr_dynamic")
 			return nil, status.Errorf(codes.Internal, "Service malfunction, code : R1")
 		}
 	}
@@ -146,7 +146,7 @@ func (s *Service) GenerateQr(ctx context.Context, req *structpb.Struct) (*struct
 
 	err = s.jackdbService.QrGenerateUpdateResponse(ctx, responseData, id)
 	if err != nil {
-		h.ErrorLog("QR-Dynamic-Generate - Update data : " + err.Error())
+		h.ErrorLog("QR-Dynamic-Generate - Update data : "+err.Error(), "qr_dynamic")
 		return nil, status.Errorf(codes.Internal, "Service malfunction, code : U0")
 	}
 
